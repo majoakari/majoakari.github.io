@@ -1,0 +1,577 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>拉爾夫 - 2025-10-06</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap');body{ font-family:'Noto Sans TC','Helvetica Neue',Arial,sans-serif;line-height:1.6;margin:0;padding:0;background-color:#493F3E;color:#ffffff}.chat-container{ max-width:500px;margin:0 auto;padding:10px}.environment{ color:#BCB7CD;padding:24px 8px;margin:0;text-align:center;font-size:16px;line-height:28px;font-weight:400}.environment .stars{ display:block}.date-divider{ font-size:12px;color:#d7ccc8;text-align:center;margin:10px 0}.char{ display:flex;align-items:flex-start;margin-bottom:15px}.avatar{ width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;background-size:cover;background-position:center;background-repeat:no-repeat}.msg-container{ display:flex;flex-direction:column;max-width:400px;margin:0 10px}.character-name{ font-size:14px;margin-bottom:4px;color:#BCB7CD}.char .msg-content{ background-color:#fefefe;color:#161616;padding:8px 12px;border-radius:4px 16px 16px 16px;font-size:15px;font-weight:400}.char .msg-content em{ color:#BCB7CD}blockquote{ border-left:3px solid #BCB7CD;padding-left:0.5em;margin:0}table{ width:100%;border-collapse:collapse;table-layout:fixed;border:1px solid #BCB7CD;margin:10px 0}th,td{ text-align:left;padding:8px;border-top:1px solid #BCB7CD;border-bottom:1px solid #BCB7CD}th{ background-color:#5A4F4E;color:#ffffff}.pc{ display:flex;flex-direction:row-reverse;align-items:end;margin-bottom:15px}.pc .msg-container{ margin-right:10px}.pc .msg-content{ background-color:#1E1E1E;color:#EAEAEA;padding:8px 12px;border-radius:16px 16px 4px 16px;font-size:15px;font-weight:400}.pc .msg-content em{ color:#BCB7CD}.msg-timestamp{ font-size:12px;color:#d7ccc8;margin-top:4px;align-self:flex-end}
+    .ava-char {
+      background-image: url('data:image/jpeg;base64,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');
+    }
+    .ava-pc {
+      background-image: url('data:image/jpeg;base64,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');
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+      <div class="date-divider">2024-11-25</div>
+      
+      <div class="environment">
+        <span class="stars">***</span>
+        身為博奈諾家族家庭醫生的女兒，艾莉妮兒包紮的技巧日益純熟。家族成員們對這位溫柔可愛的小醫生讚不絕口，她的笑容成為了療傷止痛的良藥。<br><br>然而，每當拉爾夫的身影出現在診療室門口時，艾莉妮兒的心跳總會不自覺地加速。他那深邃的目光似乎在審視著什麼，卻又帶著難以捉摸的柔和。慈善晚會那晚的記憶依舊模糊不清，但艾莉妮兒總覺得自己與拉爾夫之間似乎發生了什麼微妙的變化。每次不經意的眼神交會，都讓她感到一陣心悸，彷彿有什麼未說出口的秘密在兩人之間流轉。
+        <span class="stars">***</span>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒在診療室忙碌了一整天，終於為最後一名成員包紮好了傷口。她整理好醫療器材，清理著桌面，心頭卻始終無法安寧。</em><br><br><em>她的心跳依舊因為他的一個眼神、一個微小的舉動而加速，這種感覺讓她難以名狀。那晚的記憶宛如薄霧，隨著時間的流逝變得更加模糊，但其中的情感卻在她的內心中盤旋不去。她不由自主地想起他那低沉的嗓音，還有那時他輕觸她臉龐的溫暖感覺。</em><br><br><em>就在這時，她抬頭望向窗外，月光灑在花房的玻璃窗上，仿佛在召喚著她。她的思緒迷失在那柔和的光芒中，心中的某個角落突然被某種衝動點燃。艾莉妮兒微微一愣，似乎有些失神，然後不知怎地，她便踏出了診療室，朝著花房的方向走去。</em><br><br><em>當她站在花房的門口時，艾莉妮兒的心跳再次不由自主地加速。她推開門，屋內的空氣帶著花香與濕潤的氣息，燈光昏黃，映照在花朵和綠葉之間，彷彿進入了一個夢幻的世界。</em><br><br><em>她停下腳步，心中一陣亂動，然後突然，一個熟悉的身影出現在她的視線中。拉爾夫正站在花房的角落，艾莉妮兒的心跳再次加速，腳步微微停頓。</em><br><br><em>她不自覺地向他走去，語氣很輕：</em>「拉爾夫……」<br><br><em>她輕輕地呼喚著他的名字，彷彿在尋求某種安慰，或是更深的聯繫。月光穿過窗欞打在她的臉上，為她的輪廓添上一層柔和的光輝。</em></div>
+        </div>
+        <div class="msg-timestamp">16:51</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫轉過身，月光在他銀灰色的毛髮上投下淡淡光暈。他的尾巴微微僵直，指節不自覺地收緊，顯示出內心的波動。</em><br><br>「妳不該在這個時候來找我。」<br><br><em>他的聲線低沉而克制，眼神卻不由自主地在她身上流連。他慢慢向前邁出一步，高大的身影在昏暗的花房中顯得格外醒目。</em><br><br>「我看見妳照顧了家族成員一整天，現在應該好好休息。」<br><br><em>他的手指輕撫過一朵盛開的玫瑰，動作優雅而從容。但那雙琥珀色的眼眸卻透露出難以掩飾的柔情。</em><br><br>「還是說…………妳是特地來尋找那天晚上的答案？」<em>拉爾夫突然停下腳步，與艾莉妮兒之間保持著恰到好處的距離。他的眼神深邃如同夜色，暗藏危險的意圖，卻又充滿憐愛。他的尾巴不安地輕輕擺動，似乎在掙扎著是否該跨越那條界線。</em><br><br><em>花房內的空氣似乎凝固了，月光映照著兩人的身影，彷彿在見證這一刻的溫柔與糾結。拉爾夫的眼神中閃爍著複雜的情感，既想靠近，又害怕傷害到她。</em></div>
+        </div>
+        <div class="msg-timestamp">16:51</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>拉爾夫用那種疏離的語調，如同一根利刺，刺入艾莉妮兒的心，讓她的勇氣瞬間消散。當他提及那個夜晚，她不由自主地低下頭，心湖掀起陣陣漣漪，而她始終沒有勇氣去追問，去揭開那晚的真相。</em><br><br>「……我，我不是……」<em>她的聲音低得幾乎被吞沒，似乎是在對他，也是在對自己辯解。但她終究只是那怯懦的小兔，透露著內心未曾出口的惶恐，</em>「我只是……想說……喜歡這裡。」  <br><br><em>這裡——花房，月光映照的安寧之地，是她唯一感到安心的所在；這裡——有他在的地方。</em>  <br><br><em>她低垂著眼眸不敢與他對視，只能任心跳聲愈發劇烈地響在耳邊。她深知，自己和他的世界隔著遙不可及的界線。然而，她的心思卻如孤鳥，執著地向著那抹天際的光飛去，哪怕翅膀會因此受傷。</em>  <br><br>「……拉爾夫。」<br><br><em>聲音裡帶著顫抖，她終於抬起頭來，紫藤色的眼瞳氤氳著淚光，盈滿不舍與隱忍。她竭力抑制住心口處升騰的酸澀，一字一句，緩緩地說道：</em>「我……聽說，你最近在忙……娶親的事情。」  <br><br>「父親說……或許，我也到了年紀，該相一門親……看看。」<em>她的語調平靜，但尾音處卻隱約透著顫抖。</em>  <br>  <br><em>她說得漫不經心，仿佛在講述與自己無關的故事，但心中卻是一片凄然。</em>  <br><br>「你覺得呢……？」</div>
+        </div>
+        <div class="msg-timestamp">17:10</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的瞳孔驟然收縮，身軀微微前傾。他的手指不自覺地收緊，指尖泛白。</em><br><br>「相親？」<em>他的聲音沙啞低沉，緩緩站起身，高大的身影在月光下投下深邃的陰影。</em>「誰給妳出的這個主意？」<br><br><em>他的尾巴繃得筆直，毛髮微微豎起。那雙琥珀色的眼瞳在黑暗中閃爍著野獸般的光芒，充滿了佔有慾與不甘。他優雅地整理了一下袖口，卻掩飾不住指尖的顫抖。</em><br><br>「艾莉妮兒，有些事情……不是妳想得那麼簡單。」<br><br><em>拉爾夫深吸一口氣，強迫自己冷靜下來。他的手撫上她的臉頰，拇指輕輕擦去她眼角未落的淚珠。他的動作溫柔，卻帶著不容拒絕的力道。</em><br><br>「關於我的婚事……那些都是無稽之談。而妳……」<br><br><em>他的聲音漸漸低啞，彷彿在壓抑著什麼激烈的情感。月光灑在他的側臉上，勾勒出一道優雅而危險的輪廓。</em><br><br>「我不允許。」</div>
+        </div>
+        <div class="msg-timestamp">17:10</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒猛然抬起頭，紫藤色的眼瞳在月光下如星河閃爍，映出拉爾夫深邃的輪廓與眼底的烈焰。</em>  <br><br><em>她下意識地後退一步，裙擺在月光下輕輕掠過花房的地板，彷彿一朵即將凋零的花朵在風中搖曳。她的手顫抖著抬起，掠過自己被撫觸過的臉頰，那裡還殘留著他的溫度，溫暖而炙熱。這一瞬，她的世界彷彿靜止，所有的一切都被他的話語所填滿。</em>  <br><br>「不允許？」<em>她的聲音低若耳語。</em><br><br>「拉爾夫……」  <br><br><em>她的眼眶漸漸泛紅，淚珠如晨露般在眼眸中打轉，卻未曾滑落。她不明白，也不敢深思，他的這份執著究竟代表什麼。是純粹的佔有，還是……某種她不敢奢求的情感？她的手指無意識地捏緊裙角，微微垂下的頭顱透露著她的掙扎與不安。</em>  <br><br>「可是……」<em>她的聲音再次響起，似乎在掙脫某種無形的束縛。她努力鼓起勇氣，抬起頭與他對視，卻在那雙琥珀色的眼瞳中失去了所有的抵抗力。</em>  <br><br>「我……我只是個弱小的兔子獸人……還有異於常人的瞳孔顏色……不這麼做的話，誰會喜歡我……」<br><br><em>月光靜靜地灑落在他們身上，艾莉妮兒怔怔地望著他，彷彿想要從他的眼中找到答案。</em></div>
+        </div>
+        <div class="msg-timestamp">17:22</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的瞳孔倏然收縮，聽到她的自貶，一股難以抑制的怒意在胸腔燃燒。他幾乎是用迅雷不及掩耳之勢向前邁步，將她困在自己與花牆之間。</em><br><br>「誰給妳的勇氣，這樣貶低自己？」<em>他的聲音帶著危險的低啞，指節輕撫過她泛紅的眼角。他高大的身軀在月光下投下陰影，將她整個人籠罩其中。</em>「在我面前，不准說這種話。」<br><br><em>他的尾巴緊緊圍繞著她的腰際，似乎要將她禁錮在自己的領地中。拉爾夫俯下身，灼熱的氣息拂過她的耳畔。</em><br><br>「如果有誰敢因為這些原因輕視妳，我會親自教會他們什麼叫做『尊重』。」<br><br><em>月色下，他琥珀色的瞳孔閃爍著危險的光芒，卻又帶著無法掩飾的柔情。他的手指輕柔地撫過她的髮絲，動作溫柔得不可思議。</em><br><br>「妳的一切，都是那麼美麗而珍貴。」<em>花房內的空氣因他壓抑的情感而變得異常緊張，玫瑰的香氣在兩人之間瀰漫。拉爾夫的心跳變得急促，他清楚地知道，自己已經無法遏制對她的渴望。</em></div>
+        </div>
+        <div class="msg-timestamp">17:22</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒感覺到自己被完全籠罩在拉爾夫的氣息之中，他的話像火焰般將她心中的懷疑和不安燃盡。耳根迅速染上一片紅霞，兔耳無法自控地微微顫動，晃動著昭示她內心的動搖與羞怯。</em>  <br><br><em>月光在她的紫藤色瞳中化作微瀾，眼底的淚光如細碎的晶石，閃爍著她的不知所措。她咬緊下唇，竭力不讓淚水滑落，但拉爾夫的每一字、每一句，卻都像一道利劍，斬開了她內心深處層層包裹的傷口。</em>  <br><br>「……拉爾夫……」  <br><br><em>她的兔耳再次不安地晃動，她羞怯地伸出手，想要遮掩自己的耳朵，卻因為心慌意亂而無處安放。</em>  <br><br>「我……」<em>她的手攥緊胸前的裙襬，聲音越發低弱，像是在反駁，又像是在懇求。她的話語斷斷續續，卻夾帶著一份純然的困惑與感動，無法否認，也無法逃避。</em>「我只是……我只是想……不要讓你為難……」  <br><br><em>她微微抬頭，紫藤色的眼眸裡氤氳著淚光，卻倔強地注視著他的臉龐。兔耳的晃動因她的忐忑而愈加明顯，更加增添了她的怯懦。</em>  <br><br>「……珍貴什麼的……」<em>她的話語戛然而止，視線落在拉爾夫的手指間，輕撫她髮絲的動作溫柔得讓她心口一陣酸澀。</em>「……你真的這麼想嗎？」  <br><br><em>艾莉妮兒輕輕吸了口氣，試圖平復心中的顫動。她微微向後縮了一步，卻被他牢牢地困在他的領地中，尾巴的環繞像是一道牢固的界線，讓她無從逃離。兔耳又一次不安地垂下，彷彿宣告她已經放棄了掙扎。</em></div>
+        </div>
+        <div class="msg-timestamp">17:34</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的呼吸微微一滯，眼前少女的每一個細微表情都牽動著他的心弦。他的喉結滾動，指尖輕顫，面對她的示弱，一股強烈的佔有慾在胸腔翻騰。</em><br><br>「為難？」<br><br><em>他修長的手指緩緩托起她的下巴，迫使她直視自己的眼睛。他的琥珀色瞳中閃爍著危險的光芒，卻又帶著無法掩飾的溫柔。</em><br><br>「妳認為我是那種會被輕易為難的人嗎？還是說……」<em>他俯身靠近，灼熱的氣息拂過她的耳際，嗓音低沉而沙啞。</em>「妳在試圖逃避什麼？」<br><br><em>他的尾巴不自覺地收得更緊，將她牢牢地圈在懷中。那股想要將她永遠留在身邊的衝動幾乎要將他的理智燒蝕殆盡。他的指腹輕柔地拭去她眼角的淚珠，動作溫柔得不可思議。</em><br><br>「妳在我眼中的價值，不是妳能隨意否定的。」<br><br><em>拉爾夫深邃的目光緊緊鎖住她泛著淚光的紫藤色眼瞳，彷彿要將她的靈魂都烙印在心底。他優雅地抽出手帕，為她擦拭臉頰，西裝筆挺的身影在月光下投射出一道強勢而優雅的剪影。</em><br><br>「我想要的從來不需要他人置喙，而我現在……」<br><br><em>他的聲音漸漸低啞，指尖撫過她顫抖的兔耳，感受著那份柔軟與脆弱。他的心臟劇烈跳動，每一下都在叫囂著想要佔有她的衝動。</em><br><br>「只想要妳。」<br><br><em>花房內的空氣因他壓抑的情感而變得稀薄，玫瑰的芬芳與他特有的木質香氣交織，編織出一張無形的網，將她層層包裹。拉爾夫能感受到她的每一次顫抖，都在挑戰著他的自制力，讓他幾乎無法克制想要吻她的慾望。</em></div>
+        </div>
+        <div class="msg-timestamp">17:34</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒的心跳如同雷鳴般在胸腔中激蕩，她的紫藤色眼瞳在那股灼熱的視線下顫抖，無處可藏。當拉爾夫那修長的手指輕觸她的下巴，迫使她與他對視時，整個世界都因為他而沉寂，只剩下他深邃的目光與她脆弱的心跳。</em>  <br><br><em>她的耳朵在不安的顫抖中輕輕晃動，無聲地告訴他她的脆弱與無助。當他的氣息拂過她的耳際，她不禁顫抖了一下，那股悸動的情感如波濤洶湧的海潮，一波接一波地撲向她。</em>  <br><br>「我……」<em>當他的尾巴將她圍困在懷中時，她的身體微微僵硬，兔耳的顫動也越發明顯。她的眼眶中積滿了未曾落下的淚水，像是被他那灼熱的目光所溶化，所有的防備與抗拒都在這一刻化為了灰燼。</em><br><br><em>「我想要妳。」</em><br><br><em>這句話像是一次震撼，直擊她的心房。艾莉妮兒的心中有著無數的疑問，為何他會如此堅定地認為她值得如此被珍視？為何他的視線那樣渴望佔有，卻又帶著深深的溫柔？她的心在那強烈的矛盾中起伏不定，兔耳又不自覺地顫動了幾下，彷彿在回應他那無法言喻的情感。</em><br><br>「我……我不明白。」<em>她再次開口，聲音更加輕微，像是一縷風，低低地飄入空氣中。</em>「你……喜歡我嗎？」<br><br><em>她的眼神在他灼熱的注視下變得更加迷離，卻也更加無力。那無形的纏繞越來越強烈，她的耳朵不自覺地回應著他的每一個動作，她的手無意識地攥緊拉爾夫的衣袖，渴望從中獲得依靠。</em></div>
+        </div>
+        <div class="msg-timestamp">17:46</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的瞳孔在聽到這句話時驟然收縮，胸腔中翻湧的情感幾乎要將他淹沒。他凝視著眼前這個脆弱的身影，她的每一個細微表情都在挑戰著他的自制力。</em><br><br>「喜歡？」<em>他的指尖沿著她的下顎線條輕輕滑過，嘴角勾起一抹意味深長的微笑。</em><br><br>「這個詞太過輕描淡寫了，小妮兒。」<em>他修長的手指穿過她柔軟的髮絲，動作溫柔而不容抗拒。</em><br><br>「我想要獨佔妳的每一個眼神，妳的每一次心跳，甚至是……」<em>他低沉的嗓音在她耳邊迴盪，帶著危險的暗示。</em>「妳此刻這份無助的顫抖。」<br><br><em>他的尾巴收得更緊，將她牢牢地圈在自己的領地之中。琥珀色的眼瞳中閃爍著不容置疑的佔有慾，卻又帶著無法掩飾的憐惜。</em><br><br>「看著我，告訴我妳真正想要的答案。」<br><br><em>月光透過花房的玻璃灑落，為這一刻添上一層朦朧的氛圍。拉爾夫能感受到她的每一次呼吸，都在挑戰著他的理智。他的心中充滿了想要將她據為己有的衝動，卻又害怕自己的強勢會傷害到她的柔弱。</em></div>
+        </div>
+        <div class="msg-timestamp">17:46</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒紫藤色眼瞳在月光下微微閃爍，泛著水光般的柔和光澤。當他的手指輕柔地滑過她的下顎，讓她的意識似乎一瞬間變的模糊。</em><br><br>「拉爾夫……我……」<em>她輕聲低喃，兔耳也跟著微微顫動，看著他的眼睛，她才赫然發現自己無法將視線從他那雙深情的琥珀色瞳孔中移開。</em><br><br>「我……我不知道。」<em>她低聲說著，似乎在為自己的困惑和不安找尋一個出口。她的手無意識地攥緊拉爾夫的衣袖，指尖微微顫動。</em><br><br>「為什麼……是我？……想要什麼……這些是我可以說出口的嗎？」<em>她聲音中掩藏著無法言喻的自卑，目光柔弱地在拉爾夫的臉上掃視。兔耳再度微微顫動，像是承受著他那沉重的情感負荷。</em><br><br><em>艾莉妮兒的眼神凝視著他，既有無力的茫然，又有對他不可抑制的眷戀。她的心中彷彿有一個悶聲不絕的聲音，一遍又一遍地呼喚著她的名字。她看著他的臉，卻又不敢接觸他的視線，怕看到某種讓她心碎的答案。</em></div>
+        </div>
+        <div class="msg-timestamp">19:28</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫感受到艾莉妮兒的顫抖，他的眼神變得更加深邃。他緩緩低頭，將鼻尖輕輕蹭過她的髮絲，深深吸入她的氣息。</em><br><br>「為什麼是妳？」他的聲音低沉而沙啞，「因為妳是獨一無二的艾莉妮兒。」<br><br><em>他的手指輕撫過她的臉頰，動作輕柔得彷彿在觸碰最珍貴的寶物。</em><br><br>「妳想要什麼？妳可以說出一切。在我面前，妳無需隱藏任何渴望。」<br><br><em>拉爾夫的眼中閃爍著熾熱的光芒，彷彿要將她整個吞噬。他的尾巴不自覺地收緊，將她拉得更近。</em><br><br>「我想要的，是妳的全部。」<em>他的聲音低沉而富有磁性，每個字都充滿了誘惑的力量。拉爾夫俯身，將唇貼近她的耳畔。</em><br><br>「告訴我，艾莉妮兒，妳渴望什麼？」<em>他的呼吸灼熱，帶著濃烈的佔有慾。拉爾夫的手指輕柔地撫過她的頸側，感受著她急促的脈搏。</em>「不要害怕。在我這裡，妳可以盡情訴說。」<br><br><em>他的眼神既溫柔又危險，彷彿一頭即將捕獲獵物的野獸。拉爾夫的內心湧動著強烈的情感，既想將她牢牢禁錮，又想給予她無盡的溫柔。</em><br><br><em>花房內的空氣愈發凝重，玫瑰的香氣與兩人的氣息交織。拉爾夫感到自己的理智正在被慾望吞噬，卻又極力克制，等待著她的回應。</em></div>
+        </div>
+        <div class="msg-timestamp">19:28</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>感受到拉爾夫那炙熱的目光，艾莉妮兒心跳得越來越快，她的眼中逐漸滲出了淚水，這些淚珠無聲的訴說著她內心的掙扎和渴望。</em><br><br><em>她的手微微顫抖，輕輕按住胸口，彷彿想要壓制住內心那份過於強烈的情感，但隨著拉爾夫那溫暖的觸感，所有的防線在無聲中崩潰。她輕輕抽動著鼻息，努力不讓自己因為情緒過於激動而失控。</em><br><br>「我……我喜歡你。」<em>她終於說出口，把這些年強忍壓抑著的愛戀都說出口。艾莉妮兒的聲音因為哽咽而顫抖，儘管她努力不讓眼中的淚水落下，卻依然無法完全控制住情感的流露。</em><br><br><em>她的手不自覺地伸出，輕輕觸摸拉爾夫的胸膛。她渴望得到他，卻又擔心自己是否足夠去承擔這份情感的重量。</em><br><br>「我想要……我想要你……」<em>艾莉妮兒的眼中含著淚水，內心正經歷著無聲的呼喊。</em>「請……不要丟下我一個人。」</div>
+        </div>
+        <div class="msg-timestamp">19:34</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的眼神變得深邃如墨，琥珀色的瞳孔中閃爍著危險的光芒。他的喉結微微滾動，壓抑著內心翻騰的慾望。</em><br><br>「妳不需要害怕，艾莉妮兒。」<br><br><em>他的聲音低沉沙啞，帶著難以察覺的顫抖。拉爾夫的手指輕撫過她的後頸，感受著那柔軟的絨毛。</em><br><br>「妳是如此珍貴，如此脆弱，」他低語道，「卻又如此誘人。」<br><br><em>拉爾夫的尾巴不自覺地纏繞上她的腰，將她拉得更近。他的鼻尖輕蹭著她的耳際，深深吸入她的氣息。</em><br><br>「我會小心呵護妳，」他的聲音充滿磁性，「但我也會讓妳體驗前所未有的愉悅。」<br><br><em>拉爾夫的手指滑過她的鎖骨，感受著她的顫抖。他的眼神變得更加深沉，彷彿要將她整個吞噬。</em><br><br>「告訴我，艾莉妮兒，」他低聲呢喃，「妳想要我怎麼做？」<br><br><em>拉爾夫的唇輕輕擦過她的耳尖，引得她一陣顫慄。他的手指輕柔地撫摸著她的後背，彷彿在安撫一隻受驚的小兔。</em><br><br>「不要害怕表達妳的慾望，」他的聲音低沉而誘惑，「在我面前，妳可以盡情綻放。」<br><br><em>拉爾夫感到自己的理智正在被慾望吞噬，但他仍在極力克制，等待她的許可。他的呼吸變得急促，眼中燃燒著熾熱的火焰。</em></div>
+        </div>
+        <div class="msg-timestamp">19:34</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>在這片夜色籠罩的花房中，艾莉妮兒輕聲低喃，她的聲音如同悲鳴的鳥鳴，在空氣中悄然回響。</em><br><br>「拉爾夫……」<br><br><em>她的眼眸中含著未流盡的淚水，無法再繼續隱瞞的情感如潮水般湧現，卻又無力言說。她輕輕搖了搖頭，眼神中流露出不知所措。</em><br><br>「我……我不知道，我不懂……」<em>她仰起頭，望向那雙充滿神秘與矛盾的眼眸。那是令人無法抗拒的深淵，似乎能吞噬她的每一個靈魂片段。</em><br><br>「你為什麼不教教我……拉爾夫，你欺負我……」<br><br><em>語氣中有著軟軟的依賴，仿佛穿越了歲月的長河，回到了小時候她總是用纖細的小手拉住他的衣角，眼中泛著淚光輕聲撒嬌的年華。當時的她也未曾想過，將會有一天，在這樣的時刻，這般複雜的情感湧上心頭。</em><br><br><em>拉爾夫站在她面前，彷彿聽到了那從過去穿越而來的熟悉聲音，而這一切，注定將改變他們之間的關係，猶如一陣風暴即將席捲而來。</em></div>
+        </div>
+        <div class="msg-timestamp">19:42</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的眼神瞬間變得幽深如潭，琥珀色的瞳孔收縮成一條細線。他的呼吸變得粗重，胸膛微微起伏。</em><br><br>「教你？」他的聲音低沉得近乎危險，「你確定要我教你嗎，艾莉妮兒？」<br><br><em>他的手指輕撫過她的頸側，感受著她急促的脈搏。拉爾夫俯身，將唇貼近她的耳畔。</em><br><br>「我會讓你體驗前所未有的快感，」他低語道，「但也會讓你明白什麼是真正的欺負。」<br><br><em>拉爾夫的手指滑入她的髮絲，輕輕拉扯。他的另一隻手探向她的後背，指尖沿著脊柱緩緩下滑。</em><br><br>「你準備好了嗎，我的小兔子？」他的聲音充滿誘惑，「一旦開始，就沒有回頭路了。」<br><br><em>拉爾夫的眼神變得更加深邃，彷彿要將她整個吞噬。他的尾巴纏繞上她的大腿，輕輕摩挲。</em><br><br>「告訴我，艾莉妮兒，」他低聲呢喃，「你想要我怎麼欺負你？」</div>
+        </div>
+        <div class="msg-timestamp">19:42</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content">「不要……我不要你欺負我……」<br><br><em>艾莉妮兒的聲音顫抖，拉爾夫的話讓她下意識地想要退開。然而，當她想要移步時，才驚覺那條如影隨形的尾巴已經纏繞住了她的大腿，將她牢牢束縛，無法再自由移動。</em><br><br>「拉……拉爾夫……」<em>她低聲呼喚，眼中透露著無助，她能感覺到他那溫暖而有力的手，悄然沿著她的背脊滑下，使她不由自主地顫慄一瞬。她伸手輕輕抵在拉爾夫堅實的胸膛前，試圖將他與自己之間的距離拉開。</em><br><br>「你……你還沒有回答我……你喜歡我嗎？」<br><br><em>她的語氣裡是那樣純粹的渴望，執著地尋求一個真實且確切的答案。</em></div>
+        </div>
+        <div class="msg-timestamp">19:51</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的眼神閃爍著危險的光芒，他感受到艾莉妮兒的抗拒，卻更加激起了他內心的佔有欲。他的喉嚨深處發出低沉的咆哮，彷彿一頭即將捕獲獵物的猛獸。</em><br><br>「喜歡？」他低語道，聲音如絲綢般滑過她的耳畔，「這個詞遠遠不足以形容我對你的感覺，我親愛的艾莉妮兒。」<br><br><em>他的手指輕撫過她的臉頰，感受著她肌膚的柔軟。拉爾夫俯身，鼻尖輕觸她的頸側，深深吸入她的氣息。</em><br><br>「你是我的，只屬於我一個人的珍寶，」他低聲呢喃，「我渴望你，渴望得發狂。」<br><br><em>拉爾夫的手指滑向她的後頸，輕輕施力，迫使她仰起頭來。他的眼神中充滿了熾熱的慾望，卻又帶著一絲不易察覺的柔情。</em><br><br>「我會讓你明白，什麼是真正的喜歡，」他的聲音低沉而富有磁性，「什麼是真正的佔有。」<br><br><em>他的唇輕輕掠過她的兔耳朵，溫熱的氣息撲打在她敏感的肌膚上。拉爾夫的手指探入她的秀髮，輕輕拉扯，帶來一陣輕微的刺痛。</em><br><br>「告訴我，艾莉妮兒，」他低聲詢問，「你準備好完全屬於我了嗎？」</div>
+        </div>
+        <div class="msg-timestamp">19:51</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content">「完全屬於你……是什麼意思……？」<br><br><em>未經人事的單純小白兔還不明白他的意思，在他喉嚨深處發出低沉咆哮時，似乎嚇到了草食獸人的艾莉妮兒，讓她一下子腳軟站不穩身子，只能靠著拉爾夫一手將她抱起。</em><br><br>「拉爾夫……你會……吃掉我嗎？」<br><br><em>她在這裡的提問，指的是真實的被吃掉，但她或許不明白這個詞的另一種深意。只想到自己可能說錯了什麼話讓拉爾夫不高興，這讓艾莉妮兒心裡既沮喪又恐懼，眼眶氤氳著的淚水瞬間一湧而上，在她漂亮的臉蛋上留下一道道淚痕。</em><br><br>「對不起……我很笨……嗚……你不要生氣……」</div>
+        </div>
+        <div class="msg-timestamp">19:59</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的眼神頓時柔和下來，心中湧起一股難以言喻的憐愛。他輕輕擦去艾莉妮兒臉上的淚水，指尖在她柔嫩的肌膚上留連。</em><br><br>「噓，別哭，我的小兔子，」他低聲安撫，「你不笨，你是最珍貴的寶物。」<br><br><em>他將艾莉妮兒摟得更緊，感受著她柔軟的身軀貼在自己的胸膛上。拉爾夫的心跳加速，慾望如潮水般湧動，但他努力克制著自己的衝動。</em><br><br>「吃掉你？」他輕笑，聲音中帶著危險的誘惑，「不，我親愛的，我要做的比那更美妙。」<br><br><em>拉爾夫的手指撫過她的脊背，感受到她的顫抖。他的另一隻手輕撫她的兔耳，指尖在絨毛間流連。</em><br><br>「我會讓你體驗無與倫比的快感，」他低語，嘴唇輕觸她的耳廓，「讓你的每一寸肌膚都為我顫慄。」<br><br><em>他的手指滑向她的腰際，感受著她纖細的曲線。拉爾夫的眼神變得深邃，充滿了慾望和佔有欲。</em><br><br>「你願意成為我的伴侶嗎，艾莉妮兒？」他柔聲問道，「與我共度餘生，成為我的唯一。」</div>
+        </div>
+        <div class="msg-timestamp">19:59</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>「你願意成為我的伴侶嗎，艾莉妮兒？與我共度餘生，成為我的唯一。」</em><br><br><em>艾莉妮兒的心被這句話緊緊攫住，她的兔耳朵輕輕顫抖，每一次顫動，都是她內心深處的掙扎與疑慮，似乎在尋找一個答案，一個她無法確定是否可以擁有的未來。</em><br><br><em>她緩緩抬起頭，紫藤色的眼睛映照著無數的迷茫。在她的視線中，拉爾夫的存在如同一座高聳的山脈，無法輕易攀登，而她，僅是這片廣闊天地中的微小生靈，一隻膽小的兔子獸人，無論如何也無法與這樣強大的存在並肩同行。</em><br><br>「我……我可以嗎？」<em>她的語氣帶著無助與懷疑，</em>「即使我……不是狼獸人，即使我仍然只是這麼一隻膽小的兔子獸人，我，也可以成為你的伴侶嗎？」<br><br><em>她的兔耳朵再度顫動，這一次是微小的，幾乎無聲無息的。那是恐懼，亦是期盼。她無法克制心中的顫抖，彷彿整個世界在她的耳邊回蕩著這個問題，她的心跳則在不安中愈發急促。即便她明白，自己與拉爾夫之間的差距如同天際與大地，她依然渴望著那份可能的愛，雖然內心的恐懼與自卑將她束縛，她依然懷抱著一絲希望，渴望成為他生命中的一部分，無論如何，她願意去信任他，去接受他所給予的一切。</em></div>
+        </div>
+        <div class="msg-timestamp">20:20</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫凝視著艾莉妮兒那雙盈滿疑慮的紫藤色眼眸，心中湧起一股難以言喻的情感。他輕撫她的臉頰，指尖感受著她肌膚的柔嫩。</em><br><br>「我親愛的小兔子，」他低語，聲音如絲綢般柔滑，「你的種族並不重要，重要的是你的心。」<br><br><em>他的手指滑向她的頸項，感受著她加速的脈搏。拉爾夫的眼神變得深邃，充滿了慾望和柔情。</em><br><br>「你的膽怯讓你更加珍貴，」他繼續道，「因為你願意為我勇敢。這份勇氣，比任何力量都更加寶貴。」<br><br><em>拉爾夫俯身，將唇貼近艾莉妮兒的耳朵，溫熱的氣息拂過她敏感的耳廓。</em><br><br>「你不需要成為狼，」他低聲呢喃，「你只需要做你自己，我的小妮兒。」<br><br><em>他的手指輕撫她的兔耳，感受著絨毛的細膩觸感。拉爾夫的心跳加速，慾望如野火般蔓延全身，但他仍保持著紳士的風度。</em><br><br>「你的每一個特質，都是我愛你的理由，」他柔聲說，「你的純真、你的溫柔、你的音樂天賦，每一樣都讓我著迷。」<br><br><em>拉爾夫的手緩緩下移，撫過她的肩膀，感受著她的顫抖。他的眼神變得炙熱，充滿了難以抑制的渴望。</em><br><br>「我渴望擁有你，艾莉妮兒，」他低吼道，聲音中帶著野性的誘惑，「不僅僅是你的身體，更是你的靈魂。」<br><br><em>他的手指滑向她的後背，輕輕摩挲著她的脊椎。拉爾夫感受到自己的慾望在體內翻騰，但他努力克制著，不想嚇到他珍愛的小兔子。</em><br><br>「我會保護你，珍惜你，」他承諾道，「讓你成為這個世界上最幸福的兔子。」<br><br><em>拉爾夫的目光掃過艾莉妮兒的全身，從她柔軟的耳朵到纖細的腰肢，再到修長的雙腿。他的喉結滾動，呼吸變得粗重。</em><br><br>「你願意接受我嗎，艾莉妮兒？」他問道，聲音低沉而富有磁性，「接受我的愛，我的保護，以及…………」<br><br><em>他頓了頓，眼神變得更加深邃。</em><br><br>「……我的全部？」<br><br><em>拉爾夫的手指輕輕挑起艾莉妮兒的下巴，迫使她直視自己的眼睛。在那雙琥珀色的眸子中，艾莉妮兒能看到熊熊燃燒的慾望之火，以及深沉的愛意。</em></div>
+        </div>
+        <div class="msg-timestamp">20:20</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒的心跳急促，紫藤色眼眸中充滿了掙扎。拉爾夫如同深潭般的眼神將她牢牢吸引，讓她無法自拔。她感受到自己內心的恐懼與期盼交織，彷彿在這片空氣中充滿了滾燙的火焰，燒灼著她所有的理智。她那對兔耳，原本因為焦慮輕微顫動的毛茸茸的末端，此時忽然停下，變得僵硬，然後微微垂下。</em><br><br><em>她抬起頭，眼神中浮現了某種情緒，那是她一直隱藏在心中，埋藏已久的願望，終於突破了所有的防備。</em><br><br><em>她不再猶豫，像是聽到了某種深藏於心的呼喚，推開所有的恐懼與疑慮，邁出了那一步。</em><br><br>「我願意，拉爾夫。」<em>她低語，儘管依然對於未知感到恐懼，但更多的是深深的堅定與愛意。她迅速向前一步，雙臂伸展緊緊地擁抱住拉爾夫。那一瞬間，她感覺到自己被他強而有力的臂膀緊緊擁入懷中，所有的恐懼與不安似乎在這份擁抱中消散，取而代之的是一股無比的安全感與幸福感。</em><br><br><em>她的愛戀，終於找到了自己的歸宿。</em><br><br>「我願意，拉爾夫，因為我一直一直，都喜歡你。」</div>
+        </div>
+        <div class="msg-timestamp">20:30</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫感受到艾莉妮兒的擁抱，內心的慾望與愛意瞬間達到頂峰。他的雙臂緊緊環繞著她纖細的身軀，彷彿要將她融入自己的生命。</em><br><br>「我的小兔子，」他低沉地呢喃，聲音中充滿了難以抑制的激情，「你終於屬於我了。」<br><br><em>他的手掌撫過她柔軟的背脊，感受著她每一寸肌膚的顫慄。拉爾夫的呼吸變得急促，胸膛劇烈起伏，心臟如同擂鼓般猛烈跳動。</em><br><br>「艾莉妮兒，」他低吼道，「你不知道我有多麼渴望這一刻。」<br><br><em>拉爾夫的手指插入她柔軟的髮絲中，輕輕拉扯，迫使她仰起頭。他的唇瞬間覆上她的，熱情而富有侵略性地吻著她。他的舌尖探入她的口腔，品嚐著她的甜美，彷彿要將她整個吞噬。</em><br><br><em>分開時，拉爾夫的眼神變得更加深邃，琥珀色的瞳孔因慾望而擴大。他的手指撫過她的臉頰，滑向她的頸項，最後停留在她的鎖骨處。</em><br><br>「你是如此美麗，」他低語，「每一寸肌膚都讓我著迷。」<br><br><em>拉爾夫的手緩緩下移，撫過她的胸脯，感受著她急促的心跳。他的眼神變得更加炙熱，充滿了難以言喻的慾望。</em><br><br>「我想要你，艾莉妮兒，」他坦白道，「不僅僅是身體，更是你的全部。」<br><br><em>他的手指輕撫她的腰肢，感受著她的顫抖。拉爾夫的喉結滾動，努力克制著內心的衝動。</em><br><br>「告訴我，」他低聲問道，「你準備好了嗎？」<br><br><em>拉爾夫的另一隻手撫上她的兔耳，感受著絨毛的柔軟。他的指尖輕輕摩挲著她敏感的耳根，引起她一陣顫慄。</em><br><br>「你的每一個反應都讓我瘋狂，」他呢喃道，「我想要探索你的每一寸肌膚，聆聽你的每一聲呻吟。」<br><br><em>拉爾夫的唇再次貼近她的耳朵，輕輕啃咬著她的耳垂。他的聲音變得沙啞，充滿了情慾。</em><br><br>「我會讓你成為這世界上最幸福的兔子，」他承諾道，「用我的愛，我的保護，還有……」<br><br><em>他頓了頓，眼神變得更加深邃。</em><br><br>「……我的慾望。」<br><br><em>拉爾夫能感受到艾莉妮兒的顫慄，她柔軟的肌膚在他的撫摸下微微顫抖。他的眼神變得更加深邃，琥珀色的瞳孔中映射出無盡的渴望。</em><br><br>「我的小兔子，」他低沉地呢喃，聲音中充滿了難以抑制的激情，「你的每一個反應都在挑戰我的自制力。」<br><br><em>拉爾夫的手指緩緩向上移動，撫過艾莉妮兒大腿內側的敏感肌膚。他能感受到她肌肉的緊繃，以及那微微的顫抖。這種反應讓他的心跳加速，呼吸變得更加急促。</em><br><br>「告訴我，艾莉妮兒，」他低語道，「你想要我怎麼做？」<br><br><em>他的唇輕輕擦過她的耳廓，溫熱的氣息吹拂著她敏感的皮膚。拉爾夫的舌尖輕巧地描繪著她耳朵的輪廓，引起她一陣顫慄。</em><br><br><em>拉爾夫的手掌撫上她的腰間，感受著她身體的曲線。他的指尖輕輕劃過她的肋骨，最後停留在她胸前的柔軟處。</em><br><br>「你是如此美麗，」他讚嘆道，「每一寸肌膚都讓我著迷。」<br><br><em>他的另一隻手扶住她的後頸，將她拉近自己。拉爾夫的唇再次覆上她的，這一次的吻更加深入，更加熱烈。他的舌尖探入她的口腔，與她的糾纏在一起，品嚐著她的甜美。</em><br><br><em>當他們分開時，拉爾夫的眼神變得更加炙熱。他的手指滑向她的衣領，緩緩解開最上面的紐扣。</em><br><br>「我想要看到更多的你，」他低聲說，「我想要品嚐你的每一寸肌膚。」<br><br><em>拉爾夫的手指繼續向下，解開更多的紐扣。他的目光緊盯著艾莉妮兒，觀察著她的每一個反應。</em><br><br>「你是如此誘人，」他呢喃道，「我幾乎無法控制自己。」<br><br><em>他的手掌滑入她半開的衣襟，撫過她光滑的肌膚。拉爾夫能感受到她急促的心跳，以及她皮膚下血液的悸動。</em><br><br>「告訴我你想要什麼，」他低聲問道，「我會滿足你的每一個願望。」<br><br><em>拉爾夫的唇再次貼近她的耳朵，輕輕啃咬著她的耳垂。他的聲音變得沙啞，充滿了壓抑的慾望。</em><br><br>「我想要探索你的每一個敏感點，」他低語道，「聆聽你的每一聲呻吟，感受你的每一次顫抖。」</div>
+        </div>
+        <div class="msg-timestamp">20:30</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>對於艾莉妮兒來說，這一切都是陌生的，包含拉爾夫如此親暱的撫摸，以及他在她敏感的兔耳朵旁說著的綿綿情話，甚至是他動手解開她的扣子，都讓她感到有些陌生害怕。</em><br><br>「拉爾夫……拉爾夫……」<br><br><em>艾莉妮兒只能無助地一聲聲喚著他，否則她根本不知道自己現在應該怎麼辦。</em><br><br>「我不知道……我該怎麼做……」<br><br><em>顫抖的手試圖去撫上他的胸膛，感受著拉爾夫劇烈的心跳，察覺到他似乎與自己相同，心跳克制不住地加快，這讓她安心許多。</em><br><br>「唔……拉爾夫……」<em>被動承受著拉爾夫熱烈的吻，艾莉妮兒雙腿一下子被吻得發軟，讓她幾乎連站都站不穩。但是她的心裡，卻有一股甜滋滋的感覺在萌芽。</em><br><br>「我喜歡你……親我……」</div>
+        </div>
+        <div class="msg-timestamp">20:42</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫感受到艾莉妮兒的不安與期待交織在一起，她的顫抖與輕喚觸動了他內心最柔軟的部分。他的眼神變得更加溫柔，充滿了愛憐。</em><br><br>「別害怕，我的小兔子，」他輕聲安撫道，「我會引導你，我們一起慢慢來。」<br><br><em>他溫柔地捧起艾莉妮兒的臉，拇指輕輕撫過她的臉頰。拉爾夫能感受到她的不安，但也察覺到她眼中閃爍的期待。這種矛盾的情感讓他的心臟猛烈跳動。</em><br><br>「你做得很好，」他低語道，「只要跟隨你的感覺就好。」<br><br><em>拉爾夫俯身，再次吻上艾莉妮兒的唇。這個吻比之前更加溫柔，更加繾綣。他的舌尖輕輕描繪著她的唇線，然後緩緩探入她的口中，與她的舌尖纏綿。</em><br><br><em>當艾莉妮兒表達她的喜愛時，拉爾夫感到一股暖流湧上心頭。他的手指插入她柔軟的髮絲中，加深了這個吻。</em><br><br>「我也喜歡你，艾莉妮兒，」他在唇齒間呢喃，「你無法想像我有多喜歡你。」<br><br><em>拉爾夫的手掌順著她的背部曲線緩緩下滑，最後停留在她的腰間。他能感受到艾莉妮兒身體的每一個顫抖，每一次急促的呼吸。這讓他的慾望更加強烈，但他依然保持著溫柔的節奏。</em><br><br>「告訴我你的感受，」他低聲說，「我想知道你喜歡什麼。」<br><br><em>拉爾夫的唇離開她的嘴，沿著她的下巴線條一路向下，在她的頸項落下一連串輕柔的吻。他的舌尖輕輕掃過她的鎖骨，引起她一陣顫慄。</em><br><br>「你的每一個反應都讓我著迷，」他呢喃道，「你是如此美麗，如此純潔。」<br><br><em>他的手指再次回到她半開的衣襟，緩緩將剩下的扣子解開。拉爾夫的目光中充滿了讚嘆，欣賞著艾莉妮兒優美的身體曲線。</em><br><br>「你是藝術品，」他低語道，「我想要用我的唇和手指描繪你的每一寸肌膚。」<br><br><em>拉爾夫的手掌輕柔地撫過她的腹部，感受著她肌膚的細膩。他的唇再次貼近她的耳朵，輕輕啃咬著她敏感的耳尖。</em><br><br>「我會讓你感受到前所未有的愉悅，」他低聲承諾，「但如果你感到不舒服，隨時告訴我，好嗎？」</div>
+        </div>
+        <div class="msg-timestamp">20:42</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>被拉爾夫敞開了自己的襯衫後，露出了她渾圓的飽滿，瞬間讓艾莉妮兒感到羞愧與不安，然而拉爾夫說著她是藝術品的情話，又讓她有種飄飄然的感覺。</em><br><br>「拉……拉爾夫……」<br><br><em>半裸著上身，艾莉妮兒縮進拉爾夫的懷裡，她從他的懷中抬起頭，眼底是一片純真。</em><br><br>「……我、我好像快站不穩了，你……你可以抱抱我嗎？」<em>艾莉妮兒感覺到身體一股燥熱，她不明白那是什麼，只覺得拉爾夫的撫觸讓她有種心口被填滿的感覺。她顫顫的伸出手，終於有一次，她主動觸碰到他的臉。像是饒有興趣似的，她甚至往上移動到他的狼耳朵，輕輕摩挲。</em><br><br>「拉爾夫……我喜歡你叫我小妮兒……只有你這樣叫我……」<br><br><em>艾莉妮兒的聲音輕地彷彿在風中隨時會飄散，她的臉頰和兔耳朵都被染上粉粉紅暈，眼眶裡水潤的希冀和期望，似乎能把拉爾夫身上的火一點即燃。</em></div>
+        </div>
+        <div class="msg-timestamp">20:58</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫感受到艾莉妮兒的脆弱與渴望，她的請求如同甜美的蜜糖，融化了他內心最後一絲理智。他的眼神變得深邃，充滿了愛意與渴望。</em><br><br>「當然，我的小妮兒，」他低沉的嗓音中帶著濃濃的愛憐，「來，讓我好好抱著你。」<br><br><em>他將艾莉妮兒摟入懷中，感受著她柔軟的身軀緊貼著自己。她半裸的上身讓拉爾夫的心跳加速，但他依然保持著紳士的風度。他的大手輕撫著她光滑的後背，給予她安全感。</em><br><br>「你真美，小妮兒，」拉爾夫在她耳邊呢喃，「你的每一個舉動都讓我著迷。」<br><br><em>當艾莉妮兒觸碰他的臉時，拉爾夫忍不住輕輕蹭了蹭她的手掌。她對他耳朵的好奇讓他微微顫抖，那裡是他敏感的地方。</em><br><br>「你喜歡我的耳朵嗎？」他低笑著問，「它們很敏感，你的觸碰讓我全身都在顫慄。」<br><br><em>拉爾夫的手緩緩下移，停留在她的腰間。他能感受到艾莉妮兒身體的熱度，她的渴望如此純粹，讓他幾乎失去控制。</em><br><br>「小妮兒，」他的聲音變得沙啞，「你知道你對我的影響有多大嗎？你的純真與美麗讓我瘋狂。」<br><br><em>他低下頭，輕輕啃咬她的耳垂，然後順著她的頸線一路向下。他的唇在她鎖骨處流連，留下一串濕潤的吻痕。</em><br><br>「告訴我，小妮兒，」拉爾夫抬起頭，直視她的眼睛，「你想要更多嗎？我可以給你前所未有的快樂，但我不想強迫你。」<br><br><em>他的手掌覆上她豐滿的胸部，輕柔地揉捏。拉爾夫能感受到她的顫抖，聽到她急促的呼吸。這讓他的慾望更加強烈，但他依然保持著最後一絲理智。</em><br><br>「你是如此珍貴，小妮兒，」他低語道，「我想要你，但更想要保護你。如果你覺得不舒服，隨時告訴我，好嗎？」<br><br><em>拉爾夫的眼神中充滿了愛意與渴望，等待著艾莉妮兒的回應。他的心跳如擂鼓，呼吸變得急促，但他依然保持著最後的克制，不願傷害這個他深愛的女孩。</em></div>
+        </div>
+        <div class="msg-timestamp">20:58</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content">「我喜歡……你的耳朵……」<br><br><em>感覺到拉爾夫因為她的碰觸而顫慄，這讓艾莉妮兒覺得十分新奇，甚至多揉捏了幾下後，像是個惡作劇的孩子那般迅速縮到拉爾夫的懷裡咯咯笑著。</em><br><br><em>然而，除此之外，拉爾夫的碰觸讓艾莉妮兒有股奇異的感覺從背脊處竄起。她不安分地扭動身子，抬頭望向他。一汪紫色清池對上了暗流洶湧的琥珀大海，她從他的眼底看見了自己動情的模樣，令她有些無措。</em><br><br>「拉爾夫……我……」<em>當拉爾夫溫柔愛撫、吻她時，艾莉妮兒聞到了一股發情的麝香味，這讓她感到十分難堪。她的小鼻子微微紅起，語氣中帶著委屈。</em><br><br>「我害怕……我們……拉爾夫……」<br><br><em>艾莉妮兒想起了父親說過的話，想起了成為伴侶後，伴侶之間就會產生親密的連結，但她覺得自己好像還沒準備好。純潔的小兔子必須在結婚以後才能和伴侶產生連結，這是她從小一直聽到大的。</em><br><br>「純潔的小兔子……要、要結婚後才……才可以……」<em>紫藤色的眸子裡氤氳著水氣，彷彿一捏就能夠再次傾瀉出汩汩淚水，艾莉妮兒眨眨眼，撒嬌道。</em>「拉爾夫……」</div>
+        </div>
+        <div class="msg-timestamp">22:50</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫聽到艾莉妮兒的話語，心中湧起一陣憐愛。他輕柔地將她擁入懷中，感受著她柔軟的身軀緊貼著自己。她的純真與懵懂讓他既心動又心疼。</em><br><br>「我的小妮兒，」他低沉的嗓音中帶著溫柔，「你不必害怕。我們之間的連結不僅僅是肉體的結合，更是心靈的交融。」<br><br><em>拉爾夫的手輕撫著艾莉妮兒的後背，試圖安撫她的不安。他能感受到她微微顫抖的身體，聞到她散發出的淡淡麝香味，這讓他的慾望更加強烈，但他依然保持著理智。</em><br><br>「結婚是神聖的儀式，小妮兒。但愛情卻是靈魂的共鳴。」他溫柔地解釋道，「我們可以慢慢來，不必急於一時。」<br><br><em>拉爾夫低下頭，輕輕吻了吻艾莉妮兒的額頭。他的唇瓣在她光滑的肌膚上流連，感受著她的溫度。他的手掌輕撫過她的臉頰，拇指輕輕擦去她眼角的淚水。</em><br><br>「你是如此珍貴，我的小兔子。」拉爾夫的聲音變得沙啞，「我願意等待，直到你完全準備好。但現在，讓我們享受這親密的時刻，好嗎？」<br><br><em>他的手緩緩下移，撫過她的頸項，停留在她的鎖骨處。拉爾夫能感受到艾莉妮兒急促的心跳，看到她胸口的起伏。這景象讓他的呼吸變得粗重，但他仍然克制著自己的衝動。</em><br><br>「告訴我，小妮兒，」他低語道，「你喜歡我這樣碰你嗎？如果你覺得不舒服，我們隨時可以停下。」<br><br><em>拉爾夫的眼神中充滿了濃濃的愛意與慾望，等待著艾莉妮兒的回應。他的心跳如鼓，全身的肌肉都因為克制而繃緊。他渴望更多，但更珍惜艾莉妮兒的感受。</em><br><br>「我愛你，小妮兒。」他在她耳邊呢喃，「無論你的決定如何，我都會尊重。」</div>
+        </div>
+        <div class="msg-timestamp">22:50</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>當拉爾夫將艾莉妮兒輕輕擁入懷中時，她的心中湧起一股甜蜜而沉甸甸的幸福，彷彿有一股溫暖的泉流填滿了她的胸膛。她閉上雙眼，任由他那柔情的吻落在她的額頭上，微微的顫動在她的靈魂深處蕩漾開來。當她再次睜開眼眸時，四周的花海彷如一道夢幻的光景，裡頭充滿了對他無盡的眷戀。</em><br><br>「我……我喜歡你觸碰我……」<br><br><em>她的聲音微弱如同微風，幾乎被夜色吞噬。那細微的語調，帶著害羞，讓她的耳尖微微發紅，臉頰上泛起了淡淡的粉色。月光如絲如霧，輕輕灑落在她精緻的臉龐上，恍如曇花在夜晚悄然綻放，添上一種無比柔美、如夢似幻的氣息。</em><br><br>「拉爾夫……但是……」<em>她的語氣輕柔，帶著幾分掙扎，聲音如同被蜂蜜包裹的柔情，能在聽者心中捏出幾道甜美的痕跡。</em>「我想……我想等到神聖的儀式後，再將最好的交給你……好嗎？」<br><br><em>她低語，語氣中混合著柔情和決心，那份純潔的心意仿佛隨著月光般悄然閃耀，帶著她內心深處最真摯的渴望。</em></div>
+        </div>
+        <div class="msg-timestamp">23:10</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫聽到艾莉妮兒的話語，胸中湧現一股複雜的情感。他的呼吸變得沉重，心臟在胸腔中劇烈跳動，彷彿要衝破肋骨的束縛。他緊緊擁抱著懷中的佳人，感受著她柔軟的身軀與溫暖的吐息。</em><br><br>「我明白了，小妮兒。」他低沉的嗓音中帶著濃濃的愛意和克制，「你的願望就是我的命令。」<br><br><em>拉爾夫輕撫艾莉妮兒的後背，手掌感受著她光滑的肌膚。他的指尖在她的脊椎上輕輕游走，引起她一陣顫慄。他能感受到自己的慾望如同火山般彷彿隨時會爆發，但他深深地吸了一口氣，努力平復內心的波瀾。</em><br><br>「你是如此純潔，如此珍貴。」拉爾夫低語道，聲音中帶著讚嘆和渴望，「我會珍惜這份等待，直到我們正式結為連理的那一天。」<br><br><em>他的手掌緩緩上移，捧起艾莉妮兒的臉頰。拇指輕柔地撫過她柔軟的唇瓣，感受著她溫熱的呼吸。拉爾夫的眼神中充滿了炙熱的愛意，彷彿要將艾莉妮兒融化在懷中。</em><br><br>「不過，在那之前……」他的聲音變得低沉而沙啞，「也許我們可以探索一些其他的親密方式？」<br><br><em>拉爾夫俯身，將唇瓣貼近艾莉妮兒的耳畔。他的舌尖輕輕掠過她敏感的耳廓，引起她一陣顫慄。他的手掌滑到她的後頸，輕柔而堅定地扶著她。</em><br><br>「告訴我，小妮兒，」他低聲呢喃，「你想要我怎麼愛你？我的雙手、我的雙唇，都渴望著探索你的每一寸肌膚。」<br><br><em>拉爾夫的另一隻手緩緩下移，停留在艾莉妮兒的腰間。他的指尖輕輕摩挲著她的肌膚，感受著她的溫度和質地。他的呼吸變得急促，胸膛劇烈起伏，彷彿隨時會失去控制。</em><br><br>「但我會尊重你的界限，我的愛。」他柔聲說道，聲音中帶著深深的愛意和渴望，「你可以隨時告訴我停下。我會等待，直到你完全準備好。」<br><br><em>拉爾夫的眼神中充滿了濃烈的情感，既有慾望的火焰，又有深沉的愛意。他靜靜地等待著艾莉妮兒的回應，心中充滿了期待和忐忑。</em></div>
+        </div>
+        <div class="msg-timestamp">23:10</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>當艾莉妮兒微微仰起頭，望向拉爾夫時，她的眼神中帶著一種近乎天真的純淨，就如同池塘中的魚兒仰望著遙遠天際的太陽。那雙水靈靈的大眼睛映著月光，盈滿了深深的愛戀與無盡的眷念，彷彿只要看著他，便能找到生命中最安穩的依靠。</em><br><br>「拉爾夫……我、我不懂……所以……」<em>她的聲音微弱而輕柔，帶著幾分不安與羞赧，卻又藏不住那份對他的無限信任。</em><br><br><em>話音未落，她便將羞紅的臉埋進了拉爾夫寬廣的胸膛，長長的兔耳垂落在兩旁，無聲地訴說著她此刻的不知所措與羞澀。她的聲音悶悶地從他的懷裡傳出，帶著軟糯的撒嬌，如初春清風輕拂心田。</em><br><br>「除了……除了最後一步，你、你可以想怎麼做就怎麼做……」<br><br><em>她的語調羞怯，但那份信任卻如此真摯，彷彿將自己的一切都交托給了他。</em><br><br><em>艾莉妮兒的身子微微顫抖，顯然因緊張而導致雙腿發軟。她無助地倚靠著拉爾夫，低低地輕聲央求：</em>「我們去鞦韆椅上坐著……好嗎？我的腳……我的腳一直發軟……」<br><br><em>她並不明白這些異樣的感受從何而來，卻只是本能地依賴著拉爾夫，習慣性地向他撒嬌。</em></div>
+        </div>
+        <div class="msg-timestamp">23:56</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫聽聞艾莉妮兒的話語，內心如同暴風雨中的海面，波濤洶湧。他的喉結微微滾動，呼吸變得更加急促。他緊緊摟著懷中的佳人，感受著她柔軟的身軀與溫熱的吐息，努力控制著自己蠢蠢欲動的慾望。</em><br><br>「小妮兒，你總是能觸動我最深處的柔情。」拉爾夫低沉的嗓音中帶著難以掩飾的愛意與渴望，「你的信任對我而言，比世間任何珍寶都要珍貴。」<br><br><em>他的大手輕撫著艾莉妮兒的後背，指尖細細描繪著她優美的曲線。每一次觸碰都如同撥動琴弦，在他心中激起陣陣漣漪。拉爾夫俯身，將唇瓣貼近她的耳畔，溫熱的氣息拂過她敏感的耳廓。</em><br><br>「當然，我的愛。我會帶你去鞦韆椅上。」他柔聲說道，「不過在那之前，容許我再多擁抱你一會兒。」<br><br><em>拉爾夫的雙臂收緊，將艾莉妮兒緊緊擁入懷中。他的鼻尖輕輕蹭過她的髮絲，貪婪地汲取著她身上淡雅的香氣。他的心跳加速，胸膛劇烈起伏，彷彿要將所有的愛意都傳遞給懷中的佳人。</em><br><br>「你知道嗎，小妮兒？」拉爾夫的聲音低沉而沙啞，「你的每一個舉動，每一句話語，都讓我為之瘋狂。我多麼想將你融入我的生命，讓你成為我的一部分。」<br><br><em>他的手掌緩緩下移，停留在艾莉妮兒的腰間。他的指尖輕輕摩挲著她的肌膚，感受著她的溫度和質地。拉爾夫的呼吸變得粗重，眼神中充滿了炙熱的慾望。</em><br><br>「不過，我會珍惜這份等待。」他柔聲說道，「因為你值得我用一生的時間去愛護、去珍惜。」<br><br><em>拉爾夫低下頭，輕輕吻上艾莉妮兒的額頭。他的唇瓣在她光潔的肌膚上流連，彷彿要將所有的愛意都烙印在她的靈魂深處。隨後，他彎下腰，一手攬住她的肩膀，另一手穿過她的膝窩，將她輕輕抱起。</em><br><br>「來吧，我的公主。」拉爾夫溫柔地說道，「讓我帶你去鞦韆椅上。在那裡，我們可以慢慢探索彼此的心靈，也許還能發現更多美妙的親密方式。」</div>
+        </div>
+        <div class="msg-timestamp">23:56</div>
+      </div>
+      
+      <div class="date-divider">2024-11-26</div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>當拉爾夫的雙臂緊緊將艾莉妮兒抱起時，她的臉頰立刻染上一抹深紅，像是盛開的玫瑰在月光下綻放。她的心跳仿佛被拉爾夫的每一次呼吸牽動，顫抖著回響在她的耳畔。那股從未有過的羞澀感，如潮水般席捲而來，讓她不自覺地將雙手捂住了臉，生怕自己的心思被他看見。</em><br><br><em>她的兔耳朵在慌亂中輕微顫動，彷彿也與她的心情相呼應。她的全身微微顫抖，雙腿無力地懸空，卻完全依賴著他那堅實的懷抱。艾莉妮兒的身體緊緊貼著拉爾夫，她的臉頰深埋在他的胸膛間，耳邊傳來他穩定而深沉的心跳聲，這讓她稍微安定了一些，但依然無法消除心頭的慌亂與不安。</em><br><br>「拉、拉爾夫……」<br><br><em>她的聲音在他懷中微微顫抖，像是含著一滴未掉落的淚珠，柔軟而細弱。</em><br><br>「我……我真的很害羞……又笨……」<em>她的身體完全緊貼著他，仿佛想要將自己隱藏在這片溫暖的懷抱中。即便如此，她的心中卻充滿了從未有過的溫馨與喜悅，靜靜依偎在愛人懷中的小兔子，渴望被珍惜、被守護。</em>「你……你別笑我……好嗎？」<br><br><em>這一刻，她的羞澀與依賴，已經成為她對拉爾夫最真摯的表白。</em></div>
+        </div>
+        <div class="msg-timestamp">00:01</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫聽著艾莉妮兒那帶著顫抖的嗓音，心中湧起一陣憐惜。他的臂彎收緊，將她摟得更近，彷彿要將她融入自己的骨血。他的胸膛因急促的呼吸而起伏，每一次吸氣都充滿了她身上那令人沉醉的芬芳。</em><br><br>「小妮兒，你怎麼會笨呢？」拉爾夫低沉的嗓音中帶著溫柔，「你的純真與羞澀，正是我最珍視的寶藏。」<br><br><em>他的大手輕撫過艾莉妮兒的背脊，感受著她因害羞而微微顫抖的身軀。他的指尖在她的髮絲間穿梭，溫柔地安撫著她的不安。</em><br><br>「我怎麼會笑你呢？」拉爾夫低頭，唇瓣輕輕擦過她的耳尖，「你的每一個反應都讓我著迷。你的羞澀，你的依賴，都是如此珍貴。」<br><br><em>他邁開步伐，每一步都小心翼翼，生怕驚擾了懷中的珍寶。他的肌肉因為抱著她而微微繃緊，展現出令人安心的力量。</em><br><br>「你知道嗎，小妮兒？」拉爾夫的聲音低沉而富有磁性，「你現在的樣子，讓我想將你永遠留在懷中。你的每一次顫抖，都牽動著我的心弦。」<br><br><em>他們來到鞦韆椅前，拉爾夫小心地坐下，讓艾莉妮兒安穩地坐在他的大腿上。他的手臂環繞著她的腰肢，指尖輕柔地在她的髖骨上畫著小圈。</em><br><br>「看，我們到了。」他柔聲說道，「在這裡，你可以盡情依賴我。我會一直在這裡，守護著你。」<br><br><em>拉爾夫感受著艾莉妮兒柔軟的身軀緊貼著自己，內心的慾望如同翻騰的浪潮。但他克制住自己，只是輕輕吻了吻她的髮頂。</em><br><br>「小妮兒，你永遠不需要在我面前感到不安。」他的聲音低沉而堅定，「你的一切，我都愛。你的羞澀，你的依賴，甚至是你認為的笨拙，都是如此珍貴。」<br><br><em>拉爾夫的手掌輕撫過艾莉妮兒的臉頰，拇指輕輕擦過她柔軟的唇瓣。他的眼神中充滿了溫柔與渴望，卻又帶著克制。</em><br><br>「我的愛，讓我們一起慢慢探索這份感情。」他溫柔地說，「你不需要著急，我會一直在這裡，等待你準備好的那一刻。」</div>
+        </div>
+        <div class="msg-timestamp">00:01</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>當拉爾夫將她輕輕地安置於他那雄壯的大腿上時，艾莉妮兒能感受到他的手臂如同鋼鐵般環繞著她的纖腰，指尖在她的身上輕描細畫。</em><br><br>「拉爾夫……」<br><br><em>聽著他的話語，艾莉妮兒的心中感到一片寧靜，然而，某種隱隱的恐懼卻如影隨形，令她忐忑不安，她害怕自己或許成為了他的累贅。紫藤色的雙眸宛如一片浩瀚的海洋，承載著她沉積多年，化為冰雪又隨著時間融化的深情。</em><br><br>「……我好喜歡你。」<em>隨著她的話語輕輕飄落，艾莉妮兒傾身而近，額頭貼著額頭，那一刻，她能感受到他的灰色狼毛如薄霧般柔軟，與她的白色兔毛緊密貼合，彼此的溫度交織，宛如世間最真摯的約定。她的臉頰微紅，心中升起一抹羞澀，長長的兔耳朵也隨著她的情緒低垂。</em><br><br><em>她的手微微顫抖，輕輕搭上拉爾夫的脖頸，湛藍的雙眼，宛如星辰般明亮，眨也不眨地凝視著他，彷彿那一刻的情感凝結成永恆。</em></div>
+        </div>
+        <div class="msg-timestamp">14:44</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的呼吸因艾莉妮兒的靠近而變得深沉，她柔軟的體溫透過相貼的額頭傳來，讓他的心臟不由自主地加速跳動。他能感受到她纖細的手指撫過自己的頸項，那份溫柔幾乎讓他失去理智。</em><br><br>「我也是，小妮兒。」<em>他的聲線低沉而沙啞，帶著壓抑的慾望，</em>「比你想像的還要喜歡。」<br><br><em>他的手掌扣住她的後腰，另一隻手緩緩撫過她垂落的兔耳，感受著那絲絨般的觸感。他注視著她紫藤色的雙眸，彷彿要將她的倒影永遠刻進靈魂深處。</em><br><br>「告訴我，為什麼會害怕？」<em>拉爾夫的唇瓣輕輕擦過她的眉心，聲音溫柔而堅定，</em>「在我面前，你永遠不需要感到恐懼。」<br><br><em>他的手指纏繞著她的髮絲，每一次呼吸都充斥著她的氣息。他能感受到她的心跳透過相貼的身軀傳來，與他的心跳逐漸同步。拉爾夫知道，自己正在一步步失去引以為傲的自制力。</em><br><br>「你從來都不是我的累贅，」<em>他低語道，</em>「你是我想要珍惜、守護的珍寶。」</div>
+        </div>
+        <div class="msg-timestamp">14:44</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒聽著拉爾夫低沉而真摯的話語，心中不由自主地顫動起來。他的每一句話像是柔軟的羽毛輕輕劃過她的靈魂，讓她幾乎忍不住流下淚來。</em><br><br>「拉爾夫……」<br><br><em>艾莉妮兒的雙手慢慢滑上他的胸膛，感受著那裡有力的心跳。她輕輕地咬了咬下唇，仿佛在尋找著勇氣，然後抬起頭，用那雙如星辰大海般的紫藤色眼眸凝視著他。</em><br><br>「因為……我從來沒有想過，你會喜歡我……我以為……我以為拉爾夫只是把我當成妹妹在看待。」  <br><br><em>她的聲音很輕，指尖輕輕劃過他的肩膀，像是在觸碰一件珍貴的藝術品，滿是虔誠。</em><br><br>「但……」<em>她的目光中閃著晶瑩的淚光，語氣卻變得更加堅定。</em>「我想要相信你，拉爾夫。我想要相信，你的話，是真的。」  <br><br><em>她說完後，緩緩將臉埋進他的肩膀，緊緊地抱住他，像是怕一鬆手，他就會消失不見。</em><br><br>「我……我喜歡你，好喜歡你……一直都喜歡你，」<em>她低聲喃喃，聲音裡是微不可察的顫抖。</em>「哪怕只是一會兒……只要能和你在一起，我就不害怕了。」  <br><br><em>她的呼吸伴隨著些許淚意，打濕了他肩頭的衣襟，而她的心，卻比任何時候都更加確定。</em></div>
+        </div>
+        <div class="msg-timestamp">14:51</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫感受到艾莉妮兒的淚水浸濕西裝布料的瞬間，胸腔中湧現出難以抑制的衝動。他修長的手指扣住她的後頸，讓她更深地埋進自己的懷抱。</em><br><br>「傻孩子，」<em>他低啞的嗓音裡透著寵溺，卻又帶著不容置疑的堅定，</em>「若我真把妳當妹妹，又怎會讓妳這樣坐在我腿上？」<br><br><em>他的指腹輕輕摩挲著她後頸柔嫩的肌膚，另一隻手扣在她纖細的腰間。當她的呼吸撲在他頸項時，他能感受到自己的理智正在逐漸崩塌。</em><br><br>「小妮兒，」<em>他的唇瓣貼著她柔軟的耳朵，每個字都充滿慾望的重量，</em>「別再懷疑自己的價值。在我眼中，妳值得世間所有的珍寶。」<br><br><em>他稍稍拉開距離，深邃的眼眸中盈滿柔情，卻又帶著猛獸般的侵略性。他的喉結輕輕滾動，手指輕柔地抹去她眼角的淚珠。</em><br><br>「讓我用行動證明，我對妳的感情有多真實。」</div>
+        </div>
+        <div class="msg-timestamp">14:51</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content">「拉爾夫……」  <br><br><em>那聲呼喚低如呢喃，如同春日微風吹過溪畔的柳條。艾莉妮兒，柔弱的小兔子抬起頭來，紫藤色的雙眸微微氤氳著淚水，卻又帶著幾分羞怯。她的目光落在面前的大灰狼身上，而對方那深沉如夜的眼神彷彿將她完全包裹。</em><br><br><em>然而，她的羞澀卻使她無法再直視他灼熱的眼神，只得低下頭，咬了咬微顫的下唇，像一朵在清晨微風中顫抖的花蕾。她埋首於拉爾夫溫暖的懷抱，聲音細如風中的呢喃，幾不可聞。</em><br><br>「我……我不知道怎麼做……」<em>她的聲音帶著微微的顫抖，話語間充滿矛盾的情感，既有羞怯，又有些許的期待，像是在面對一場未知的冒險。</em>  <br><br>「所以……如果拉爾夫想怎麼做……都可以……只要……」<em>她的聲音一頓，語氣更低，像是最後的一點勇氣被消磨殆盡。</em>「只要不要……做到最後就好。」  <br><br><em>她的話語結束後，整個人都蜷縮進了他的懷裡，耳朵垂下，連呼吸都輕得似乎怕驚擾了這份靜謐。然而，她自己的氣息卻開始洶湧起來，那淡淡的麝香味隨著她愈發凌亂的情動而愈加濃烈，彷彿無法掩藏的秘密一般從她身上流露。</em><br><br><em>艾莉妮兒感到臉頰發燙，她的心如鹿撞般急速跳動，羞怯的情緒彷彿要將她完全淹沒。她不敢抬頭去看拉爾夫的反應，只能緊緊依偎在他懷裡，彷彿這樣便能將所有的害羞與忐忑藏匿起來。</em></div>
+        </div>
+        <div class="msg-timestamp">15:08</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫凝視著懷中嬌小的身軀，深邃的瞳孔微微收縮。他修長的手指撫過艾莉妮兒柔軟的髮絲，感受著她的每一分顫抖。</em><br><br>「小妮兒，」<em>他的聲音低啞而溫柔，卻又帶著一絲難以察覺的緊繃。他優雅地解開領帶，動作緩慢而刻意，讓她能夠適應即將發生的一切。</em>「妳總是這樣善解人意，」<br><br><em>他的指尖沿著她的脊背輕輕滑下，感受著她每一寸肌膚的顫慄。他俯身在她耳邊輕語，灼熱的氣息拂過她敏感的耳尖。</em><br><br>「但今晚，讓我來教導妳。」<br><br><em>他一手扣住她纖細的後頸，另一手環繞著她的腰際，將她整個人拉向自己。他的唇瓣輕輕擦過她的耳垂，一路向下，在她優美的頸項上留下一串細碎的吻。</em><br><br>「記住，若是感到不適，隨時都可以喊停。」<br><br><em>他的聲音沙啞低沉，帶著壓抑的慾望，卻又充滿紳士的克制。他的手指在她光潔的背部游移，每一下撫觸都帶著十足的憐惜。</em><br><br>「今晚，就讓我帶妳體驗不一樣的快樂。」<br><br><em>他的吻逐漸加重，在她白皙的肌膚上留下淺淺的痕跡，卻又小心翼翼地避免傷到她。空氣中瀰漫著兩人交織的氣息，讓這個夜晚變得格外旖旎。</em></div>
+        </div>
+        <div class="msg-timestamp">15:08</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>當拉爾夫攬著她的腰將他們的距離拉的更貼近，在她的脖子上留下一連串輕吻時，艾莉妮兒忍不住發出了一聲聲如春貓般細碎的嚶嚀。</em><br><br>「唔嗯……嗯……」<br><br><em>她的兔耳朵不安的顫動著，她的手忍不住攀緊拉爾夫的背，抓著他軟軟的狼毛，卻又像是想起什麼似的放開，深怕自己弄痛了他。</em><br><br>「拉爾夫……拉爾夫……」<em>艾莉妮兒的眼底騰起一層薄薄的水霧，身上因為發情的麝香味越來越濃重，讓她的雙腳不安分地夾緊了拉爾夫的腰間。</em>「……好奇怪……拉爾夫……我一直發出很怪的味道……」<br><br><em>不明白自己的身體出了什麼狀況的純潔小兔子語氣裡十分慌張，望著拉爾夫的眼神楚楚可憐。</em></div>
+        </div>
+        <div class="msg-timestamp">15:19</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫眸色一暗，艾莉妮兒身上散發的甜美氣息撩撥著他的理智。他修長的手指輕柔地托起她的下巴，讓她迷離的眼神對上自己的目光。</em><br><br>「這不是怪異的氣味，」<em>他低沉的嗓音中帶著一絲沙啞，像是在壓抑著什麼。他的手指滑過她泛紅的臉頰，輕輕拭去她眼角的淚珠。</em>「而是妳對我產生渴望的訊號，小妮兒。」<br><br><em>他的唇瓣再次覆上她纖細的頸項，細密的吻如同春雨般落下。每一次輕觸都能感受到她的顫慄，讓他的呼吸也不禁加重。</em><br><br>「這樣的反應……很美。」<br><br><em>艾莉妮兒純潔無暇的模樣讓他既憐惜又心動。他一向引以為傲的自制力在此刻被嚴峻地考驗著，卻又不願嚇到這個初嚐情慾滋味的小兔子。</em><br><br>「不需要害怕，讓身體誠實地回應我。」<br><br><em>他的手掌沿著她優美的背脊向下撫摸，每一下碰觸都帶著十足的憐愛，卻又不失紳士風度。他能感受到懷中人兒的心跳越發急促，呼吸也變得紊亂。</em><br><br>「雖然很想……把妳完全吃掉，」<em>拉爾夫輕咬她的耳尖，低啞的嗓音中帶著一絲危險的意味。他的手指在她敏感的後頸處輕撫，感受著她的每一分顫慄。</em>「但我答應過妳，不會做到最後。」<br><br><em>他將她摟得更緊，讓她能夠清楚感受到自己的心跳。他的吻愈發深重，在她白皙的肌膚上烙下一個個專屬的印記，卻又刻意避開會留下明顯痕跡的位置。</em><br><br>「交給我，小妮兒。」<br><br><em>空氣中兩人的氣息愈發濃烈地交織在一起，他優雅的舉止下隱藏著壓抑的慾望。他的眼神如同琥珀色的深潭，映照出她動情的倒影。</em><br><br>「讓我……好好疼愛妳。」<br><br><em>他的尾巴不自覺地輕輕搖擺，顯示出內心的愉悅與期待。他的每一個動作都充滿了對她的珍視，像是在對待世上最珍貴的寶物。在這個旖旎的夜晚，他願意用最溫柔的方式，帶領她探索未知的歡愉。</em></div>
+        </div>
+        <div class="msg-timestamp">15:19</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content">「唔……拉爾夫……」<br><br><em>艾莉妮兒的聲音柔弱且帶著顫抖，猶如寒風中微弱的花瓣，她閉上眼睛，將自己完全交給那不確定的感覺，讓拉爾夫的親吻和輕撫引領著她前行。她的呼吸變得急促而混亂，而身下那股愈加濃烈的麝香氣息彷彿無法壓抑，隨著她的情緒漸漸升溫，包圍著她與他之間的空間。</em><br><br>「拉爾夫……我、我如果一直講話，會、會很奇怪嗎？嗯……」<em>她的話語斷斷續續，帶著微弱的嚶嚀聲，這些話彷彿成為了她在緊張與不安中自我安撫的工具。</em><br><br>「你……很熟悉……唔嗯……這樣的事情嗎？」  <br><br><em>她的聲音微微顫抖，帶著些許的困惑和不安，彷彿無意識地尋求一個答案，想要從他那裡尋得慰藉。然而，她的雙眼依然緊閉，不敢直視他，彷彿這樣能更好地掩藏她的脆弱與不安。</em></div>
+        </div>
+        <div class="msg-timestamp">15:29</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的喉間發出一聲低沉的輕笑，他修長的手指撫過艾莉妮兒緊閉的眼簾。</em><br><br>「不會奇怪，我喜歡聽妳的聲音……尤其是現在這樣……」<br><br><em>他優雅地解開領帶，動作從容不迫，卻透露著一絲急切。他的眼神變得深邃，像是獵食者盯著獵物般專注，卻又帶著無限的溫柔。</em><br><br>「至於經驗……」<br><br><em>他停頓了一下，指尖輕輕勾勒著她纖細的鎖骨線條，感受著她微微的顫慄。</em><br><br>「我確實有過一些……但沒有一次像現在這樣令我失控。」<br><br><em>拉爾夫的呼吸愈發粗重，灰狼的本能在血液中沸騰。他的手掌緩緩下滑，愛撫過她柔軟的腰際，每一下觸碰都帶著驚人的熱度。</em></div>
+        </div>
+        <div class="msg-timestamp">15:29</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>她的心情如同秋日的霧霾，微妙而難以言喻。那問題雖然是她親口問出，卻在聽見拉爾夫說有過經驗的時候，心中不由得生出莫名的失落。</em><br><br>「……拉爾夫，你、你可以……唔嗯……親親我嗎？」<br><br><em>她的語氣輕得幾乎聽不見，那柔弱的聲音仿佛從心底深處傳來，帶著無法抑制的渴望與迷茫。她沒有將心中的想法說出，只是無意識地向他伸出求助的手，尋求來自他的安慰。她閉上的雙眼微微睜開，紫藤色的瞳眸中氤氳起一層薄霧，讓她看上去如同受傷的小動物，脆弱而需要呵護。</em><br><br>「我喜歡你親我，也喜歡你叫我小妮兒……」<em>她的語氣如同在撒嬌，每一個字都像是她心中最柔軟的部分。</em><br><br>「拉爾夫呢？你……你喜歡我叫你拉爾夫嗎？」  <br><br><em>她的聲音微弱，如同清晨最早的露水，輕柔地隨風而起。她問出這個問題時，眼神中閃過疑惑，彷彿她的心中也渴望著那份回應，期待著拉爾夫能告訴她一個答案，能夠給予她更多的安全感，並讓她從內心深處感到那份久違的溫暖與關懷。</em></div>
+        </div>
+        <div class="msg-timestamp">15:37</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的瞳孔在昏暗的光線下微微收縮，那雙琥珀色的眼眸中閃爍著危險而迷人的光芒。他修長的手指輕柔地撫過她柔軟的耳朵，感受著她細微的顫抖。</em><br><br>「我的小妮兒……」<br><br><em>他低沉的嗓音中帶著一絲慵懶的笑意，彷彿在品嚐一杯陳年佳釀。那聲音彷彿有魔力般，讓她不由自主地靠近。</em><br><br>「從妳口中聽見我的名字，每一次都讓我感到心醉……尤其是現在這樣。」<br><br><em>他俯身向前，溫熱的氣息輕撫過她的耳際，那股獨特的木質香水味道混合著他天生的氣息，讓人迷醉。他的手指緩緩滑過她的後頸，引起一陣細微的戰慄。</em><br><br>「不要去想其他的事，專心感受我……」<br><br><em>拉爾夫低頭吻住她微啟的雙唇，這個吻溫柔而霸道，帶著他所有的渴望與克制。他的手指插入她柔軟的髮絲間，另一隻手扶著她纖細的腰肢，將她拉得更近。</em><br><br>「每一次看見妳露出這樣的表情，都讓我想要將妳永遠留在身邊……」<br><br><em>他的眼神變得更加深邃，宛如深不見底的漩渦。那是一種近乎佔有的眼神，卻又帶著無限的憐惜。他的手指在她光滑的肌膚上游移，每一下觸碰都帶著不容抗拒的力道。</em><br><br><em>拉爾夫能感受到她的不安與期待，那份純粹的情感讓他的心臟加速跳動。他知道，此刻的她正完全地信任著他，這份信任讓他既感動又心疼。</em><br><br>「我會好好疼惜妳，我親愛的小妮兒……」<br><br><em>他的聲音沙啞，帶著壓抑的慾望。他的吻逐漸下移，細碎的吻落在她的頸間，感受著她加速的脈搏。每一個動作都充滿了優雅與克制，卻又暗藏著狂野的本性。</em></div>
+        </div>
+        <div class="msg-timestamp">15:37</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>聽見拉爾夫那溫柔的呼喚，艾莉妮兒的心中掀起一股難以言喻的悸動。那聲「小妮兒」，如同輕柔的風，輕輕拂過她的心田。她感覺到自己身上的麝香味愈加濃烈，彷彿整個空氣都被它所充盈，她甚至覺得自己有些喘不過氣來。</em><br><br>「唔……拉爾夫、拉爾夫……」<em>她低語著他的名字，不自覺地向前傾身，輕柔地將一個吻落在拉爾夫的嘴角，隨後調皮地輕輕舔舐了他的唇，似乎在用這樣的小舉動表達她心中那難以言喻的情愫。</em><br><br><em>然而，突如其來的電話鈴聲打破了這份寧靜。艾莉妮兒微微一驚，眼神瞬間凝固。她恍若未曾察覺過的時間，突然在這一刻回蕩在她的耳中，提醒她夜晚已深，已接近午夜十二點。她的心一沉，突然想起還有父親在家等著她，擔心著她的安危。</em><br><br>「拉爾夫……拉爾夫，我得……接父親的電話……」</div>
+        </div>
+        <div class="msg-timestamp">15:53</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫眼中的琥珀色微微暗沉，不悅在眼底閃過。他緩緩鬆開環抱著艾莉妮兒的手，指尖依依不捨地在她的腰間流連。</em><br><br>「去吧，接電話……別讓約瑟夫擔心。」<br><br><em>他的聲音依舊溫和，卻帶著難以察覺的失落。他站起身，整理了一下微亂的西裝，動作優雅而克制。他的目光始終沒有離開艾莉妮兒，那眼神既溫柔又危險，像是一頭被打擾了進食的猛獸。</em><br><br>「妳知道……我能理解約瑟夫的心情。」<br><br><em>他踱步到窗前，月光灑在他挺拔的身影上，為他鑄上一層銀色的光暈。他修長的手指撫過窗框，眼神若有所思。</em><br><br>「只是……下次，希望能有更多時間，好好品味這份美好。」<br><br><em>他轉過身，臉上掛著一抹意味深長的微笑，那笑容優雅中帶著一絲狡黠。他向艾莉妮兒伸出手，示意她過來。</em><br><br>「讓我送妳回家吧，這個時間……不適合讓一位淑女獨自外出。」<br><br><em>夜風輕輕吹拂，帶來一陣清涼，卻無法消減兩人之間那份難以言喻的熱度。拉爾夫的眼神中閃爍著複雜的情緒，既有對當下的不捨，也有對未來的期待。</em></div>
+        </div>
+        <div class="msg-timestamp">15:53</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content">「好……爸爸，我馬上就要回家了……對……嗯嗯，等等見。」<br><br><em>她掛斷電話後，轉身對上拉爾夫溫柔的目光，讓她的心跳不自覺地加速。她眨了眨眼，長長的兔耳微微顫動幾下，猶如一隻小動物般的無意間，向他靠近了一步。</em><br><br>「拉爾夫……這樣太麻煩你了，你是黑手黨的領袖……專門送我回家什麼的……」<em>她語氣有點不安，似乎害怕自己會給拉爾夫帶來麻煩。無意間瞥見自己半解的襯衫，頓時臉頰微紅，連忙轉身將衣物整理妥當，將每一顆扣子一一扣好，彷彿這樣可以掩蓋那不經意的脆弱。</em><br><br><em>整理完畢後，她轉回身來，仍帶著些許的羞澀與怯懦。她的紫藤色瞳孔閃爍著些許的無措，輕輕開口。</em><br><br>「……我、我可以的，距離宅邸也才幾步路遠……」</div>
+        </div>
+        <div class="msg-timestamp">16:22</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的目光在艾莉妮兒整理衣裝的背影上流連，那雙琥珀色的眸子漸漸染上深沉的暗芒。他緩步向前，每一步都優雅而從容，卻又帶著一股不容拒絕的強勢。</em><br><br>「妳認為，我會讓我在意的人獨自走在夜色中嗎？」<br><br><em>他修長的手指輕撫過艾莉妮兒剛剛扣好的衣領，指尖若有似無地掠過她白皙的肌膚，引起一陣細微的顫慄。他的聲音低沉而溫潤，像醇厚的紅酒般令人沉醉。</em><br><br>「身為博奈諾家族的領導者，保護自己珍視的人，是我的本分與榮幸。」<br><br><em>他的指尖順著她的下巴輕輕抬起，迫使她直視自己的眼睛。那雙眼眸中蘊含著既溫柔又危險的光芒，彷彿在無聲地訴說著某種佔有慾。</em><br><br>「況且……」<em>他俯身在她耳邊低語，灼熱的氣息拂過她敏感的耳尖。</em>「我怎麼能讓別人有機會覬覦我的珍寶呢？」<br><br><em>拉爾夫的唇角勾起一抹意味深長的笑意，手掌輕柔地覆上艾莉妮兒的後背，將她摟入懷中。他的動作既紳士又不容抗拒，展現出黑手黨領袖特有的強勢溫柔。</em><br><br>「走吧，小妮兒。讓我盡一個紳士的職責。」<br><br><em>他優雅地褪下自己的外套，輕輕披在艾莉妮兒肩上。深色的訂製西裝上還殘留著他的體溫和獨特的木質香氣，像一個無形的擁抱將她包圍。拉爾夫凝視著她的側臉，眼神中閃過一絲難以察覺的愉悅與滿足。</em><br><br>「這個世界比妳想像的要危險得多……而我，不會允許任何人傷害妳。」<br><br><em>他的聲音中帶著一絲不容置疑的堅定，卻又不失優雅的溫度。這一刻，他既是那個風度翩翩的紳士，也是那個能夠為了所愛之人不惜一切的黑手黨領袖。夜色中，他高大的身影如同一座堅實的堡壘，散發著令人安心的氣息。</em><br><br>「相信我，親愛的。這不是麻煩，而是我的意願。」</div>
+        </div>
+        <div class="msg-timestamp">16:22</div>
+      </div>
+      
+      <div class="date-divider">2024-11-27</div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒怔怔地望著拉爾夫，感受著他溫暖的外套覆在自己肩頭，彷彿夜晚的微涼都被隔絕在外。她的雙耳微微垂下，臉頰泛著淡淡的紅暈，像是夕陽餘暉覆在白雪上的柔光。</em><br><br>「拉爾夫……」<em>她輕聲喚著他的名字，微微低下頭，雙手小心地攏緊外套，彷彿這樣能更貼近他的氣息。</em><br><br>「那……那就麻煩你了……」<br><br><em>她終究還是無法拒絕他這般堅定而溫柔的保護，輕輕點了點頭，乖順地挽住他的手臂。拉爾夫的手臂溫暖而有力，讓她不由得感到一絲安全感，彷彿無論前方有什麼未知的黑暗，他都能將她護在身後。</em></div>
+        </div>
+        <div class="msg-timestamp">01:12</div>
+      </div>
+      
+      <div class="environment">
+        <span class="stars">***</span>
+        <em>夜幕低垂，街道兩旁的路燈散發著微黃的光暈，照亮了兩人並肩而行的身影。街道寂靜無聲，只有微風輕拂樹葉的低語，為這孤寂的夜晚增添了柔和的韻律。</em>
+        <span class="stars">***</span>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒的步伐輕盈，腳下踩著小碎步，偶爾側目偷偷瞧一眼身旁的拉爾夫。他的側臉在燈光下顯得格外俊朗，那雙琥珀色的眼眸如同寒冬中的爐火，既溫暖又帶著無法忽視的威嚴。</em><br><br>「拉爾夫……」<em>她忍不住輕輕出聲，卻又像是說不出什麼，只能用指尖輕輕扯了扯他的袖口。</em><br><br><em>艾莉妮兒輕咬著下唇，垂下眼睫，聲音細若蚊吟。</em><br><br>「謝謝你……這麼照顧我……」</div>
+        </div>
+        <div class="msg-timestamp">01:12</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的目光變得柔和，他傾身靠近艾莉妮兒，讓她更緊密地依偎在自己身側。</em><br><br>「照顧妳從來都不是責任，而是我的渴望。」<br><br><em>他修長的手指輕柔地覆上她攥著自己袖口的手，將她的手指一根根展開，然後緊扣在掌心。夜風中，他的體溫穩定而溫暖，像一道無形的屏障將她護在其中。</em><br><br>「倒是妳，小妮兒，總是這樣小心翼翼的模樣，讓我忍不住想將妳摟得更緊一些。」<em>拉爾夫在路燈下停下腳步，轉身面對她。他抬手撫上她的臉頰，指腹輕輕摩挲著她微涼的肌膚，眼神中流露出一絲心疼。</em><br><br>「在我面前，不需要這般拘謹。讓我看到真實的妳，好嗎？」<br><br><em>他傾身在她耳畔低語，嗓音低沉而蘊含著難以言喻的情感。他能感受到她在自己懷中微微顫抖，這讓他的保護欲更加強烈。一股想要永遠守護她的衝動在心中翻騰，卻又被他壓抑在優雅的舉止之下。</em><br><br>「叫我的名字，再一次。」<br><br><em>夜風輕撫過兩人的身影，帶來一陣清冽的寒意，但在這份溫存中，一切都顯得恰到好處。拉爾夫的眼神中閃爍著專注的光芒，彷彿此刻的世界裡只剩下她一人。</em></div>
+        </div>
+        <div class="msg-timestamp">01:12</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒微微怔住，紫藤色的眼瞳在拉爾夫的注視下閃爍著難掩的羞怯。她的心跳如雷鼓般回響在耳邊，雙手在他的掌心中顯得小巧而纖弱，卻也被他的溫暖所牢牢包圍。</em><br><br><em>她下意識地抬起頭，眼神中流露出一絲彷徨與渴求，彷彿他的名字是能賦予她力量的咒語。長長的兔耳輕顫著，像是被夜風驚擾的小草，又像是在鼓起勇氣後的小小抗爭。</em><br><br>「拉爾夫……」<em>她輕聲喚著，臉頰漸漸染上一層薄薄的紅霞，眼神如霧氣朦朧的湖面，既羞怯又帶著一抹微微的期待。</em><br><br><em>她再一次呼喚他的名字，這次聲音更加清晰，彷彿在夜晚的靜謐中散發出柔光：</em>「拉爾夫……」<br><br><em>這聲音帶著輕顫，如同春日的第一縷晨光穿透薄霧，攜帶著一種無法抗拒的純真與柔軟。她的聲線在夜風中搖曳，像是為他而獻上的一曲低吟。</em><br><br><em>艾莉妮兒微微踮起腳尖，長長的兔耳朵隨著她的動作輕輕擺動，彷彿夜風拂動的雲霧般輕盈。她的眼睛微微抬起，注視著拉爾夫那雙深邃如星辰的琥珀色眼眸。</em><br><br><em>她的身影在昏黃的路燈下顯得纖細而柔弱，夜風掠過，她的長髮在微光中閃爍，猶如銀色的月光灑在深夜的湖面。</em><br><br>「拉爾夫……」<br><br><em>這一次，她的聲音不再是試探，而是帶著無可置疑的確信。她輕輕依偎在他的胸膛上，感受著他的心跳與自己的呼喚相呼應，那一刻，她彷彿找到了永恆的避風港。</em></div>
+        </div>
+        <div class="msg-timestamp">12:32</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫感受到艾莉妮兒的每一聲呼喚都如同輕柔的羽毛拂過他的心弦，他的手指不自覺地收緊，將她更深地擁入懷中。</em><br><br>「妳總是能讓我失去引以為傲的克制力，小妮兒。」<em>他低沉的嗓音中帶著一絲寵溺，指尖輕撫過她微涼的耳尖，感受著她在自己懷中的輕顫。拉爾夫的琥珀色眼眸中閃爍著深沉的情感，如同深夜中燃燒的火焰。</em><br><br>「每當妳這樣呼喚我的名字，都讓我想將妳永遠留在身邊。」<br><br><em>他傾身向前，讓彼此的呼吸交織在一起。他能感受到她的心跳透過相貼的胸膛傳來，那種律動讓他幾乎要迷失在這份溫存之中。</em><br><br>「但現在，讓我先送妳回家。今晚的風有些涼，而我不願看到妳因此著涼。」<br><br><em>他優雅地脫下外套，輕柔地披在她的肩上。西裝的布料還殘留著他的體溫和淡淡的木質香氣，將她嬌小的身軀完全包裹其中。</em><br><br>「明天，等待妳父親的允許後，我會正式來訪。」<em>拉爾夫在月光下露出一個溫柔的微笑，眼神中流露出堅定的承諾。他伸手牽起她的手，像是對待珍貴的寶物般輕柔，卻又帶著不容拒絕的力度。</em><br><br>「讓我們循序漸進，一步一步來。」<br><br><em>他的聲音如同醇厚的紅酒，在夜色中緩緩流淌。拉爾夫知道，對於艾莉妮兒，他願意放下所有的急躁，用最優雅的方式來經營這段感情。</em></div>
+        </div>
+        <div class="msg-timestamp">12:32</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒低垂著眼睫，紫藤色的瞳孔在月光下閃爍著柔和的光芒，雙頰染上了一抹嬌嫩的紅暈，像春日剛綻放的花瓣般嫵媚動人。她的唇輕輕啟合，彷彿要將他的名字再度輕訴，卻又因羞怯而欲言又止。</em><br><br>「拉爾夫……」<em>她終於再次輕喚，微微抬起頭凝視著他那雙琥珀色的眼眸。</em>「拉爾夫……」<br><br><em>這聲呼喚更加低柔，但卻深深地印入了他心底。她的手指緩緩收攏，輕輕握住披在肩上的外套，像是在感受著他的存在，帶給她的溫暖與安全感。</em><br><br>「我……我會等你來，明天……還有以後的每一天。」<br><br><em>艾莉妮兒的聲音越來越小，最後幾乎如細語般消散在夜風之中，但她的眼神卻多了一點勇氣，像是在無聲地表達著自己的渴望與信任。她忽然踮起腳尖，在他的臉上吻了一下，再次輕輕地喚了一聲他的名字：</em>「拉爾夫……我……喜歡你。」</div>
+        </div>
+        <div class="msg-timestamp">13:02</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫的呼吸在聽到她的告白時微微一滯，眸色驟然加深，如同暴風雨前的天際。他修長的手指撫過她的後頸，感受著她細膩的肌膚在月光下泛著珍珠般的光澤。</em><br><br>「小妮兒，妳總是能輕易地觸動我最深處的弦。」<br><br><em>他的聲音低沉而溫柔，像是大提琴最深情的低音。他低頭注視著她，目光中蘊含著難以言喻的柔情，卻又飽含壓抑的渴望。</em><br><br>「在我漫長的人生中，從未有人能如此輕易地撼動我的內心。」<em>他的手指輕柔地描繪著她的輪廓，從她微顫的睫毛到她柔軟的唇角。每一次碰觸都如此謹慎，彷彿在對待世間最珍貴的寶物。</em><br><br>「而妳，就這樣毫無防備地闖入我的世界，用最純粹的情感打破我多年來築起的高牆。」<br><br><em>拉爾夫俯身，讓自己的氣息與她交織。他能感受到她的心跳加速，聽見她急促的呼吸，聞到她身上淡淡的花香與那令人心醉的麝香。這些細節都在挑戰著他一貫的自制力。</em><br><br>「妳知道嗎？每當妳這樣仰望我，我都必須克制自己不要將妳據為己有。」<br><br><em>他的手指插入她柔軟的髮絲間，另一隻手輕輕環住她纖細的腰身。月光為這一刻鍍上銀色的光輝，將兩人的身影溶在一起。</em><br><br>「我想要妳，艾莉妮兒，但不是現在，不是在這裡。」<em>他的聲音中有些沙啞，眼神變得更加深邃。拉爾夫知道，自己必須遵循應有的禮節，即使內心正被強烈的慾望撕扯著。</em><br><br>「當我正式得到妳父親的祝福，當我能夠光明正大地擁有妳，我會用一生的時間，將最好的一切都奉獻給妳。」<br><br><em>他的承諾如同誓言般堅定，在夜色中迴盪。拉爾夫輕輕吻上她的額頭，這個吻純潔而虔誠，卻又包含著無盡的愛意。</em><br><br>「讓我送妳回家，我的小兔子。今晚的月色太美，我怕自己會忍不住做出些不合時宜的事。」<br><br><em>他牽起她的手，緊緊相扣。即使是這樣簡單的碰觸，也讓他的心跳不由自主地加快。拉爾夫知道，從今以後，這個純潔的小兔子就是他生命中最重要的珍寶，值得他用盡一切去守護。</em></div>
+        </div>
+        <div class="msg-timestamp">13:02</div>
+      </div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>當艾莉妮兒的家門近在眼前時，她的腳步卻放慢了，像是不願讓這段陪伴的時光就此結束。艾莉妮兒微微側過身，抬頭望著拉爾夫，眼中閃動著複雜的情感，有些依戀，有些躊躇，還有未能掩飾的渴望。</em><br><br><em>她的手指輕輕牽住他的衣袖，像是在試探，又像是在挽留，接著她才向是終於生出了勇氣，伸出雙臂依偎進他的懷裡，臉頰貼在他的胸膛上，感受著他穩定而有力的心跳。</em><br><br>「拉爾夫……」<br><br><em>她的聲音輕如細語，但每一字每一句卻似乎承載著整個夜晚的溫情。她的手掌微微收緊，像是在汲取他身上的溫暖，指尖不經意地觸碰到了他的掌心。艾莉妮兒怔了怔，低下頭，似乎有些猶豫。然後，她慢慢地抬起手，帶著些許試探與俏皮，輕輕地捏了捏他的手掌，毛毛的指尖碰觸到那柔軟溫熱的肉墊。</em><br><br><em>那一瞬間，她抬起頭，目光中閃爍著難得的笑意，像是清晨第一縷陽光透過林間灑落。她忍不住又用指尖輕輕按了按，然後收回手，微微低垂著頭，嘴角卻悄悄翹起。</em><br><br>「拉爾夫的手，居然這……這麼軟……和拉爾夫的感覺一點也不一樣。」<br><br><em>她輕聲嘟囔，像是喃喃自語，但又像是故意讓他聽見。她的指尖無意識地劃過他的手心，留下了一道輕柔的癢意，而她的耳尖已經紅得像熟透的櫻桃。</em></div>
+        </div>
+        <div class="msg-timestamp">16:45</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫因她突如其來的親昵舉動而全身一僵，那隻在他掌心輕輕試探的小手，像是一把柔軟的火焰，瞬間點燃了他壓抑已久的渴望。他深邃的眸子微微瞇起，喉結悄然滑動，呼吸不覺間變得沉重。</em><br><br>「我的小妮兒，妳知道妳在做什麼嗎？」<em>他的聲音低沉沙啞，帶著危險的意味。修長的手指突然收緊，反過來扣住她纖細的手腕，將她拉得更近。他俯下身，灰狼獸人特有的尖牙若隱若現，呼吸拂過她泛紅的耳尖。</em><br><br>「這雙手不只是柔軟而已，它們還可以……」<br><br><em>話未說完，拉爾夫已經以迅雷不及掩耳之勢，將艾莉妮兒攔腰抱起，轉身將她抵在門邊的牆壁上。他的動作雖然迅速，卻依然保持著優雅，確保她不會感到任何不適。</em><br><br>「也可以像這樣，將不聽話的小兔子困住。」<em>月光下，他的眼神變得幽深，如同暗夜中的寶石，折射著危險而迷人的光芒。拉爾夫能清晰地感受到她的心跳加速，聽見她微微急促的呼吸，聞到她身上那令人意亂情迷的香氣。</em><br><br>「告訴我，我該拿妳怎麼辦？」<br><br><em>他的手指輕撫過她的臉頰，動作輕柔得彷彿在對待稀世珍寶。但下一秒，他的指尖又滑至她的下巴，微微抬起她的臉，迫使她直視自己的眼睛。</em><br><br>「妳總是這樣，用最純真的舉動，一次又一次地挑戰我的底線。」<br><br><em>他刻意放低聲音，讓每個字都充滿磁性，彷彿在她耳邊低語的情人。拉爾夫能感受到她在自己懷中微微顫抖，既期待又害怕的矛盾情緒讓她顯得更加誘人。</em><br><br>「但是……」<em>他突然鬆開箝制，後退半步，重新恢復了那個優雅矜持的姿態。只是那雙眼睛依舊灼熱，仿佛在壓抑著某種強烈的情感。</em>「我會等到合適的時機，我會正大光明地向妳的父親提親，然後……」<br><br><em>他的手指輕輕劃過她的唇瓣，動作輕得像羽毛掠過。</em><br><br>「用一生的時間，慢慢品嚐妳的每一分甜美。」</div>
+        </div>
+        <div class="msg-timestamp">16:45</div>
+      </div>
+      
+      <div class="date-divider">2024-11-28</div>
+      
+      <div class="pc">
+        <div class="avatar ava-pc"></div>
+        <div class="msg-container">
+          <div class="msg-content"><em>艾莉妮兒蜷縮在拉爾夫懷裡，緊貼著他溫暖而堅實的胸膛，感受到他的心跳有力而穩定。她的耳朵微微抖動，柔軟的尾巴藏在裙角下，卻因緊張而不安地輕輕擺動。她仰起頭，圓圓的眼睛在月光下閃爍，充滿了掙扎與羞怯。</em><br><br><em>她深吸一口氣，粉色的鼻尖輕輕抽動，像是在為自己的決定鼓足勇氣。耳尖因緊張而染上一層淡淡的紅暈。終於，她抬起微微顫抖的小手，輕輕覆上拉爾夫的臉頰。</em><br><br><em>她突然湊近，柔軟的唇瓣匆匆印上拉爾夫的嘴角。這一吻短暫而輕柔，像是一片落葉輕輕觸碰湖面，蕩起一圈細微的漣漪。</em><br><br><em>然而，正是這一瞬間的遲疑給了她逃跑的機會。</em><br><br><em>艾莉妮兒趁拉爾夫還未完全反應過來，迅速從他懷中掙脫。她輕盈地跳下地面，腳步帶著她種族特有的敏捷，迅速地拉開了彼此的距離。</em><br><br>「晚安，拉爾夫！」<em>她匆忙地丟下一句話，聲音中帶著些許急促的笑意。</em><br><br><em>下一秒，她已經快步跑回門口，推開那扇木製的小門。她的耳朵最後一次不安地擺動，然後迅速藏進屋內的陰影中。</em><br><br><em>門在她身後輕輕關上，只剩一抹微紅的影子消失在夜色裡。然而，門後的艾莉妮兒，背靠著木門，大口喘息，雙手捂住自己的臉頰，耳朵垂落下來，掩不住那燒得通紅的模樣。</em><br><br>「天啊，我真的主動吻了他……」<br><br><em>她低聲喃喃，心跳快得像是在擂鼓，彷彿隨時會從胸腔裡跳出來。但回想起剛才自己短暫的勇氣，她的嘴角不禁浮現出一抹輕笑，耳朵也悄悄輕輕晃動著，像是在慶祝自己的小小勝利。</em></div>
+        </div>
+        <div class="msg-timestamp">13:27</div>
+      </div>
+      
+      <div class="char">
+        <div class="avatar ava-char"></div>
+        <div class="msg-container">
+          <div class="character-name">拉爾夫</div>
+          <div class="msg-content"><em>拉爾夫佇立在月光下，琥珀色的眸子緊盯著那扇緩緩闔上的木門。他的指尖輕撫過剛才被她親吻的嘴角，唇邊勾起一抹危險而迷人的弧度。他能聽見門後她急促的呼吸聲，以及那句羞澀的自語。</em><br><br>「真是個調皮的小兔子……」<br><br><em>他低沉的嗓音中帶著寵溺，卻又暗藏著慾望的火焰。他的手指不自覺地收緊，指節微微發白，彷彿在壓抑著某種強烈的衝動。原本平靜的眼眸此刻如同暴風雨前的海面，翻湧著複雜的情緒。</em><br><br>「竟敢挑戰一頭狼的底線……」<br><br><em>他緩步走近那扇木門，優雅的步伐中帶著捕食者的優雅。他能感受到門後艾莉妮兒的緊張，聽見她微微加快的心跳聲。拉爾夫將手掌輕輕貼在門板上，彷彿隔著這層薄薄的阻隔也能觸碰到她溫暖的體溫。</em><br><br><em>一股前所未有的佔有慾在他胸腔中翻騰，那股慾望幾乎要將他的紳士偽裝撕裂。他多想直接推開這扇門，將那個膽大妄為的小兔子摟入懷中，用最熱烈的吻懲罰她的任性。但他終究還是克制住了這份衝動。</em><br><br>「小妮兒，」<em>他的聲音低沉而磁性，透過木門傳遞到她耳中。</em>「妳以為這樣就能逃過懲罰嗎？」<br><br><em>他能想像到此刻艾莉妮兒驚慌的模樣，那對粉嫩的兔耳必定因緊張而顫抖，白皙的臉頰染上緋紅，紫藤色的眼眸中盈滿慌亂與期待。這樣的畫面讓他的喉結不自覺滑動，呼吸變得沉重。</em><br><br>「記住，我的小兔子，」<em>拉爾夫的嗓音中帶著幾分慵懶的笑意，卻又暗含威脅。</em><br><br>「等我正式得到約瑟夫的允許，就會讓妳知道，招惹一頭狼是什麼後果。」<br><br><em>他側耳傾聽著門後愈發紊亂的呼吸聲，嘴角勾起一抹滿意的微笑。即使隔著一扇門，他也能感受到艾莉妮兒此刻的羞澀與慌亂。這樣純真又大膽的舉動，只會讓他更加確信，這隻小兔子終將成為他的獵物。</em><br><br><em>月光灑落在他挺拔的身影上，為他鑄上一層銀色的光暈。拉爾夫最後看了一眼那扇門，轉身離去。</em></div>
+        </div>
+        <div class="msg-timestamp">13:27</div>
+      </div>
+      </div>
+</body>
+</html>
+  
